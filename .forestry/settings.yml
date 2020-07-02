@@ -12,7 +12,7 @@ sections:
   label: config_folder
   create: documents
   match: "*"
-  new_doc_ext: ".toml"
+  new_doc_ext: toml
 - type: directory
   path: content
   label: Pages
