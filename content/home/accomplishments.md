@@ -39,23 +39,23 @@ date_format = "Jan 2006"
   description = "Formulated informed blockchain models, hypotheses, and use cases."
   
 [[item]]
-  organization = "DataCamp"
-  organization_url = "https://www.datacamp.com"
-  title = "Object-Oriented Programming in R: S3 and R6 Course"
+  organization = "Udadity"
+  organization_url = "https://www.udacity.com"
+  title = "Robotics Software Engineer"
   url = ""
   certificate_url = "https://www.datacamp.com"
-  date_start = "2017-07-01"
-  date_end = "2017-12-21"
+  date_start = "2020-07-01"
+  date_end = "2020-08-01"
   description = ""
   
 [[item]]
-  organization = "RDX"
-  organization_url = "https://www.rdx.com"
-  title = "Object-Oriented Programming in R: S3 and R6 Course"
+  organization = "Udacity"
+  organization_url = "https://www.udacity.com"
+  title = "Full Stack Web Developer"
   url = ""
   certificate_url = "https://www.datacamp.com"
-  date_start = "2017-07-01"
-  date_end = "2017-12-21"
+  date_start = "2020-05-01"
+  date_end = "2020-08-01"
   description = ""
 
 +++

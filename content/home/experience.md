@@ -18,36 +18,37 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
+  title = "Research Undergraduate"
+  company = "Univerity of Colorado Boulder"
   company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
+  location = "Boulder, CO"
+  date_start = "2020-08-01"
   date_end = ""
   description = """
   Responsibilities include:
   
-  * Analysing
+  * Building
   * Modelling
-  * Deploying
+  * Simulating
+  
   """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
+  title = "Robotic Team Founder/Lead"
+  company = "RoboBoat at CU"
   company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  location = "Boulder, CO"
+  date_start = "2019-01-15"
+  date_end = ""
+  description = """Design and build ASV(Autonmous Surface Vehicles) to compete in the RoboBoat international competition."""
 
 [[experience]]
-  title = "Professor"
-  company = "University Y"
+  title = "Computer Science Undergraduate"
+  company = "Unverisity of Colorado Boulder"
   company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
-  date_end = "2016-12-30"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  location = "Boulder, CO"
+  date_start = "2018-08-01"
+  date_end = ""
+  description = """ Emphasizes knowledge and awareness of computing at all levels, from circuits and computer architecture through operating systems and programming languages to large application systems """
   
 +++

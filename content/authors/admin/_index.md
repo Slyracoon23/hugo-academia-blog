@@ -1,7 +1,6 @@
 ---
 # Display name
-name: Earl Potters
-avatar_image: "author.png"
+name: Earl Potters  
 # Username (this should match the folder name)
 authors:
 - admin
@@ -18,11 +17,11 @@ role: Computer Science Undergraduate
 
 # Organizations/Affiliations
 organizations:
-- name: University of Colorado
+- name: University of Colorado Boulder
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My interests include robotics, simulation and artificial inteligen.
+bio: My interests include robotics, simulation and artificial inteligence.
 
 # Should the user's education and interests be displayed?
 display_education: false
@@ -77,8 +76,9 @@ user_groups:
 - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Earl is a Junior at CU Boulder pursuing a degree in Computer Science. Earl’s passions are robotics, simulation and artificial inteligence. He leads the Robotic USV group at CU Boulder which develops USVs(Unmanned Surface Vehicles) for the anuual robotics challange RoboBoat.
 
-![reviews](../../img/certifacates.jpg)
+[//]: <> (RoboBoat certifacate)
+![reviews](../../img/certifacates.jpg) 
 
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum. The point of using Lorem Ipsum. distracted by the readable content of a page.
+It is a long established fact that as technology progresses, so too does the scope of what is considered robotics. Today, we’re seeing an evolved and expanded definition of robotics that includes the development, creation and use of bots that explore Earth’s harshest conditions, robots that assist law-enforcement and even robots that assist in almost every facet of healthcare.   
