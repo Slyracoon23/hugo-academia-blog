@@ -18,6 +18,4 @@ text_color_light = false
 +++
 ## My name is **Earl Potters** and I'm a Computer Science **student** specializing in **Robotics**
 
-Did you know that the first use of the word robot was in the 1920 play _R.U.R.:_ _Rossum’s Universal Robots_ by Czech writer Karel Čapek. In the play, the robots overthrow their human creators. 
-
-100 years later, and not much as changed. Apparently, we’ve been telling stories about our future robot-overlords since we first understood what robots were.
+Did you know that the first use of the word robot was in the 1920 play _R.U.R.:_ _Rossum’s Universal Robots_ by Czech writer Karel Čapek. In the play, the robots overthrow their human creators.
