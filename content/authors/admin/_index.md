@@ -1,7 +1,7 @@
 ---
 # Display name
-name: Michael Vahn
-avatar_image: "user-full.png"
+name: Earl Potters
+avatar_image: "author.png"
 # Username (this should match the folder name)
 authors:
 - admin
@@ -14,15 +14,15 @@ btn:
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Computer Science Undergraduate
 
 # Organizations/Affiliations
 organizations:
-- name: Stanford University
+- name: University of Colorado
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My interests include robotics, simulation and artificial inteligen.
 
 # Should the user's education and interests be displayed?
 display_education: false
