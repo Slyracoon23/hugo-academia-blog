@@ -5,8 +5,10 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 30  # Order that this section will appear.
 
-title = "Skills"
-subtitle = "I AM REALLY GOOD AT THE FOLLOWING TECHNICAL SKILLS"
+
+title = "Soft Skills"
+title1 = "Hard Skills"
+# subtitle = "I AM REALLY GOOD AT THE FneOLLOWING TECHNICAL SKILLS"
 
 # Showcase personal skills or business features.
 # 
@@ -14,28 +16,48 @@ subtitle = "I AM REALLY GOOD AT THE FOLLOWING TECHNICAL SKILLS"
 # 
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 
+[[feature1]]
+  icon = "cuttlefish"
+  icon_pack = "fab"
+  name = "C"
+
+[[feature1]]
+  name = "C++"
+
+[[feature1]]
+  icon = "python"
+  icon_pack = "fab"
+  name = "Python"
+
+[[feature1]]
+  icon = "js"
+  icon_pack = "fab"
+  name = "Javascript"
+  parcent = 80
+
+
+
 [[feature]]
-  icon = "chart-line"
+  icon = "comments"
   icon_pack = "fas"
-  name = "Analysis"
-  parcent = "90%"
+  name = "Communication"
+
   
 [[feature]]
-  icon = "user-secret"
+  icon = "users"
   icon_pack = "fas"
   name = "Leadership"
-  parcent = "80%"  
   
 [[feature]]
-  icon = "camera-retro"
+  icon = "brain"
   icon_pack = "fas"
-  name = "Photography"
-  parcent = "70%"
+  name = "Problem Solving"
+
   
 [[feature]]
-  icon = "searchengin"
-  icon_pack = "fab"
-  name = "Research"
-  parcent = "95%"
+  icon = "hands-helping"
+  icon_pack = "fas"
+  name = "Teamwork"
+
 
 +++
