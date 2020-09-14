@@ -1,6 +1,7 @@
 ---
 # Display name
-name: Earl Potters  
+name: Earl Potters
+avatar_image: "author.png"
 # Username (this should match the folder name)
 authors:
 - admin
