@@ -10,7 +10,7 @@
   </div>
 
   {{ if $page.Params.item }}
-  {{ range $idx, $key := sort $page.Params.item ".date_start" "desc" }}
+  {{ range $idx, $key := $page.Params.item }}
   <div class="col-lg-6 col-md-6 mb-4">
     <div class="card experience course shadow-sm rounded-0 border-0">
       <div class="card-body">

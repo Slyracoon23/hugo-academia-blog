@@ -33,9 +33,10 @@
     </div>
   </div>
   {{ end }}
-
+  
+  
   {{ with $page.Title }}
-  <div class="col-12 section-heading">
+  <div class="col-12 section-heading" style="margin-top: 40px;">
     <h1>{{ . | markdownify | emojify }}</h1>
     {{ if $page.Params.subtitle }}<p>{{ $page.Params.subtitle | markdownify | emojify }}</p>{{ end }}
   </div>
