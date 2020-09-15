@@ -7,7 +7,7 @@ authors:
 - admin
 # resume download button
 btn:
-- url : "https://cvws.icloud-content.com/B/AUQCRcPxSlAtgmhZZlpupC0k3jn3AX_Pd5WQNxxKxyusr1z60UbFTePR/Earl%27s+Resume+2.pdf?o=AgnJfW_IIXFgFUegGB-A0j1a9WK-RPq0Zdlfq1W3Q_RN&v=1&x=3&a=CAognm4KC8XonFVmpsY2TULL2lXZ1Nxyxiz55IATdr-2gMMSbRClw42YyS4YxbrEmMkuIgEAUgQk3jn3WgTFTePRaiZwXnbzjWXYgekzpOsf6wKACAIaaGkGY8Wcr4ebgAqTkoHX4pVBInImyOvEidMydM6dxY_XSoeWe0c4DfOIreaxN2lDNOTGTh_kXm0TaM0&e=1600195206&fl=&r=d908d198-efa8-46ce-a8f5-2de94231398d-1&k=HtNSGWsLpGrsh16ZDFMkgw&ckc=com.apple.clouddocs&ckz=com.apple.CloudDocs&p=71&s=XrcHyKkNbiLloThcJvOhiSKyMvg&cd=i"
+- url : "https://drive.google.com/file/d/1bsddo4J1tcnnSiZNs2ii0jFIY97V_nmq/view?usp=sharing"
   label : "Download Resume"
 
 # Is this the primary user of the site?
