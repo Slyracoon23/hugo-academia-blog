@@ -1,7 +1,7 @@
 +++
 active = true
 headless = true
-hero_media = "linkin_profiel.JPG"
+hero_media = "cubt_roboboat_photoshoot.jpg"
 title = "Academia"
 weight = "10"
 widget = "hero"

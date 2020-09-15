@@ -20,20 +20,23 @@ title1 = "Hard Skills"
   icon = "cuttlefish"
   icon_pack = "fab"
   name = "C"
+  parcent = "80%"
 
 [[feature1]]
   name = "C++"
+  parcent = "80%"
 
 [[feature1]]
   icon = "python"
   icon_pack = "fab"
   name = "Python"
+  parcent = "100%"
 
 [[feature1]]
   icon = "js"
   icon_pack = "fab"
   name = "Javascript"
-  parcent = 80
+  parcent = "90%"
 
 
 
