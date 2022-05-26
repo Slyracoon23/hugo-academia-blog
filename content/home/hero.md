@@ -16,7 +16,7 @@ color = "#fff"
 text_color_light = false
 
 +++
-## My name is **Earl Potters** and I'm a **Computer Scientist** specializing in **Blockchain** tech
+## I'm a **Computer Scientist** specializing in **Blockchain**
 
  I started my crypto journey in May of 2021. Previously I had been going to school at the university of Boulder Colorado doing robotics which included controls and some reinforcement learning.  Since winter of 2021, I attended and completed the Consenys Bootcamp where I created my own blockchain Gwent game.  
 
