@@ -157,13 +157,13 @@ Real name: **** *****
 Email address: **********@gmail.com
 Comment: New key
 You selected this USER-ID:
-&amp;quot;**** **** (New key) &amp;lt;***********@gmail.com&amp;gt;&amp;quot;
+&amp;#34;**** **** (New key) &amp;lt;***********@gmail.com&amp;gt;&amp;#34;
 &lt;/code>&lt;/pre>&lt;p>The last step is that you will need to enter a passphrase. The passphrase will allow you to unlock the secret key when every you need to make any changes to your key or decrypt messages!&lt;/p>
 &lt;p>&lt;img src="./image_6_end.png" alt="passphrase entry">&lt;/p>
 &lt;p>Congratulation! You have created your key!&lt;/p>
 &lt;pre tabindex="0">&lt;code>gpg: key 8FD4B01CB5FE9756 marked as ultimately trusted
-gpg: directory '/root/.gnupg/openpgp-revocs.d' created
-gpg: revocation certificate stored as '/root/.gnupg/openpgp-revocs.d/4F9F86C428484360A346BE1E8FD4B01CB5FE9756.rev'
+gpg: directory &amp;#39;/root/.gnupg/openpgp-revocs.d&amp;#39; created
+gpg: revocation certificate stored as &amp;#39;/root/.gnupg/openpgp-revocs.d/4F9F86C428484360A346BE1E8FD4B01CB5FE9756.rev&amp;#39;
 public and secret key created and signed.
 pub rsa4096 2020-04-17 [SC]
 4F9F86C428484360A346BE1E8FD4B01CB5FE9756
