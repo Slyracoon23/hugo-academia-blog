@@ -14,11 +14,11 @@ btn:
 superuser: true
 
 # Role/position
-role: Computer Science Undergraduate
+role: Smart-Contract Developer
 
 # Organizations/Affiliations
 organizations:
-- name: University of Colorado Boulder
+- name: CityDAO Developers Guild
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
@@ -80,12 +80,11 @@ user_groups:
 - Visitors
 ---
 
-Earl is a Junior at CU Boulder pursuing a degree in Computer Science. Earl’s passions are robotics, simulation and artificial inteligence. He leads the Robotic USV group at CU Boulder which develops USVs(Unmanned Surface Vehicles) for the anuual robotics challange RoboBoat.
+
+Earl Potters is a computer sciencist and a skilled smart-contract developer. He has experience in robotics and artificial intelligence, which he gained while working on his own robotics club at university of Colorado Boulder. Earl is always looking to learn new things and expand his skillset. He is currently working for CityDAO, a DAO focused on developing the cities of the future. 
 
 
 
-[//]: <> (RoboBoat certifacate)
-![reviews](../../img/joined.jpg)
+<!-- [//]: <> (RoboBoat certifacate)
+![reviews](../../img/joined.jpg) -->
 
-
-It is a long established fact that as technology progresses, so too does the scope of what is considered robotics. Today, we’re seeing an evolved and expanded definition of robotics that includes the development, creation and use of bots that explore Earth’s harshest conditions, robots that assist law-enforcement and even robots that assist in almost every facet of healthcare.   

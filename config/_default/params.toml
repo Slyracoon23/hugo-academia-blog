@@ -50,9 +50,9 @@ time_format = "3:04 PM"
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "eapo2776@colorado.edu"
-phone = "‪(719) 766-7439‬"
-address = "University of Colorado Boulder, Boulder, CO, United States"
+email = "earl.potters@gmail.com"
+discord = "slyRacoon23#1913"
+address = "Boulder, CO, United States"
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
 # office_hours = """Monday Through Friday"""

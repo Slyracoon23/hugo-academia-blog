@@ -40,22 +40,24 @@ date_format = "Jan 2006"
   
   
 [[item]]
-  organization = "CU Boulder Newsletter"
-  organization_url = "https://www.colorado.edu/today"
-  title = "On the Cover of CU Boulder Today"
-  url = "https://www.colorado.edu/today/2019/07/24/finding-community-small-creative-roboboat-club-improvises-during-world-competition"
-  date_start = "2019-07-01"
-  date_end = ""
-  description = "On the cover of CU Boulder Today Newsletter"
+  organization = "Consensys Bootcamp"
+  organization_url = "https://consensys.net/"
+  title = "Consensys 2021 Bootcamp"
+  url = "https://github.com/Slyracoon23/blockchain-developer-bootcamp-final-project"
+  date_start = "2021-09-01"
+  date_end = "2022-12-12"
+  description = ""
+  certificate_url="https://etherscan.io/nft/0x1975fbcf98b5678db232c8d2c78fb574fab14d73/245"
 
 [[item]]
-  organization = "Github"
-  organization_url = "https://github.com/Slyracoon23/Udacity_Coffee_Shop_Full_Stack"
-  title = "Full-Stack Coffee shop menu"
-  url = "https://coffee-udacity.herokuapp.com"
-  date_start = "2020-06-01"
-  date_end = ""
-  description = "Demonstrating authentication and authorization skills for a full-stack application for a coffee shop menu"
+  organization = "CityDAO"
+  organization_url = "https://github.com/citydaoproject/parcel-contracts"
+  title = "Parcel-0 NFT smart-contracts for CityDAO"
+  url = "https://etherscan.io/address/0x90384e76b6B3DdB47396fF85144819ded148900d#code"
+  date_start = "2021-04-15"
+  date_end = "2021-05-16"
+  description = "Created UpgradableProxy Contract for CityDAO Parcel-0 NFT mint"
+
   
 
 

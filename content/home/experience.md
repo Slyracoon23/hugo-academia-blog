@@ -18,13 +18,14 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "Independent Study Undergraduate Researcher"
-  company = "University of Colorado Boulder"
-  company_url = ""
-  location = "Boulder, CO"
-  date_start = "2020-08-01"
-  date_end = ""
-  description = """Simulate realistic weather and environmental disturbances on the WAM_V surface vehicle. Various controls are tested including nonlinear PID feedback controls to reinforcement Q-learning."""
+  title = "Data Distibuted Services Researcher"
+  company = "RTI"
+  company_url = "https://www.rti.com/en/"
+  location = "232 E. Java Drive Sunnyvale, CA 94089 USA "
+  date_start = "2021-05-01"
+  date_end = "2022-05-13"
+  description = """ Create new and novel application for DDS (Data Distrubuted Services). Integrating DDS with Cloud Services and Kubernetes. Creating datalog pipelines for realtime reactivity and working on implementing Delta-compression for Carla ROS automotive simulator.
+  """
   # Responsibilities include:
   
   # * Building
@@ -37,16 +38,15 @@ date_format = "Jan 2006"
   company_url = ""
   location = "Boulder, CO"
   date_start = "2019-01-15"
-  date_end = ""
-  description = """Design and build ASV(Autonmous Surface Vehicles) to compete in the RoboBoat international competition."""
+  date_end = "2020-12-05"
+  description = """Design and build ASV (Autonmous Surface Vehicles) to compete in the RoboBoat international competition."""
 
 [[experience]]
-  title = "Computer Science Undergraduate"
-  company = "Unverisity of Colorado Boulder"
-  company_url = ""
-  location = "Boulder, CO"
-  date_start = "2018-08-01"
+  title = "Smart-Contract Developer"
+  company = "CityDAO"
+  company_url = "https://www.citydao.io/"
+  date_start = "2022-03-28"
   date_end = ""
-  description = """ Emphasis on knowledge and awareness of computing at all levels, from circuits and computer architecture to operating systems and programming languages to large application systems. """
+  description = """ Create NFT parcel-0 claims smart-contract that uses merkle tree proof for gas optimization and EIP-1882 Universal Upgradeable Proxy Standard and EIP-2535 Diamond Pattern Storage  """
   
 +++

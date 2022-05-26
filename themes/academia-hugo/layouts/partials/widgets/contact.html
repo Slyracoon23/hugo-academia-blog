@@ -60,12 +60,10 @@
       </li>
       {{ end }}
 
-      {{ with site.Params.phone }}
+      {{ with site.Params.discord }}
       <li>
-        <i class="fa-li fas fa-phone mt-2" aria-hidden="true"></i>
-        <span id="person-telephone" itemprop="telephone">
-          {{- if $autolink }}<a href="tel:{{ . }}">{{ . }}</a>{{ else }}{{ . }}{{ end -}}
-        </span>
+        <i class="fa-li fab fa-discord mt-2" aria-hidden="true"></i>
+        <span id="person-discord" itemprop="discord">{{ . | markdownify | emojify }}</span>
       </li>
       {{ end }}
 

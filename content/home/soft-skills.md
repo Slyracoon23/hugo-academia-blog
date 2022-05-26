@@ -39,6 +39,12 @@ title1 = "Hard Skills"
   parcent = "90%"
 
 
+[[feature1]]
+  icon = "ethereum"
+  icon_pack = "fab"
+  name = "Solidity"
+  parcent = "90%"
+
 
 [[feature]]
   icon = "comments"

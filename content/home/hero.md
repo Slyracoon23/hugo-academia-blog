@@ -16,6 +16,10 @@ color = "#fff"
 text_color_light = false
 
 +++
-## My name is **Earl Potters** and I'm a **Computer Science** undergraduate specializing in **Robotics**
+## My name is **Earl Potters** and I'm a **Computer Scientist** specializing in **Blockchain** tech
 
-Did you know that the first use of the word robot was in the 1920 play _R.U.R.:_ _Rossum’s Universal Robots_ by Czech writer Karel Čapek. In the play, the robots overthrow their human creators.
+ I started my crypto journey in May of 2021. Previously I had been going to school at the university of Boulder Colorado doing robotics which included controls and some reinforcement learning.  Since winter of 2021, I attended and completed the Consenys Bootcamp where I created my own blockchain Gwent game.  
+
+After that I attend EthDenver, where my team and I won the Balancer NFT/Defi bounty! Since then I have met incredible people and now do freelance work for CityDAO. 
+
+I am excited to see the blockchain space grow and see where it takes us in the future.
