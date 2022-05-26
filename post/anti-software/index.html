@@ -1,573 +1,196 @@
-<!DOCTYPE html>
-<html lang="en-us">
-
+<!doctype html><html lang=en-us>
 <head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academia 4.3.1">
-  <meta name="generator" content="Hugo 0.92.2" />
-
-  
-
-  
-  
-  
-  
-  
-    
-    
-    
-  
-  
-
-  <meta name="author" content="Earl Potters">
-
-  
-  
-  
-    
-  
-  <meta name="description" content="Anti-malware is software that protects the user from financial ruin, infrastructure destruction, loss of data or loss of consumer confidence, etc through sophisticated malware techniques in detection, containment and prevention.">
-
-  
-  <link rel="alternate" hreflang="en-us" href="https://examplesite.org/post/anti-software/">
-
-  
-
-
-  
-
-  
-  
-  
-  <meta name="theme-color" content="#fc6f5c">
-  
-
-  
-  
-  
-  
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
-
-    
-    
-    
-      
-    
-    
-      
-      
-        
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
-        
-      
-    
-
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
-    
-
-    
-
-  
-
-  
-  
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans|Roboto+Mono&display=swap">
-  
-
-  
-  
-  
-  <link rel="stylesheet" href="/css/academia.min.76e69f7370e1e1222344c0109d841c44.css">
-
-  
-
-  
-  
-  
-
-  
-
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="icon" type="image/png" href="/img/icon.png">
-  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
-
-  <link rel="canonical" href="https://examplesite.org/post/anti-software/">
-
-  
-  
-  
-  
-    
-  
-  <meta property="twitter:card" content="summary_large_image">
-  
-  <meta property="og:site_name" content="Earl&#39;s Website">
-  <meta property="og:url" content="https://examplesite.org/post/anti-software/">
-  <meta property="og:title" content="What is Anti-Malware? | Earl&#39;s Website">
-  <meta property="og:description" content="Anti-malware is software that protects the user from financial ruin, infrastructure destruction, loss of data or loss of consumer confidence, etc through sophisticated malware techniques in detection, containment and prevention."><meta property="og:image" content="https://examplesite.org/post/anti-software/featured.jpg">
-  <meta property="twitter:image" content="https://examplesite.org/post/anti-software/featured.jpg"><meta property="og:locale" content="en-us">
-  
-  <meta property="article:published_time" content="2020-08-03T00:00:00-07:00">
-  
-  <meta property="article:modified_time" content="2020-08-03T00:00:00-07:00">
-  
-
-  
-
-
-  
-
-
-
-
-
-  <title>What is Anti-Malware? | Earl&#39;s Website</title>
-
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<meta name=generator content="Source Themes Academia 4.3.1">
+<meta name=generator content="Hugo 0.92.2">
+<meta name=author content="Earl Potters">
+<meta name=description content="Anti-malware is software that protects the user from financial ruin, infrastructure destruction, loss of data or loss of consumer confidence, etc through sophisticated malware techniques in detection, containment and prevention.">
+<link rel=alternate hreflang=en-us href=https://examplesite.org/post/anti-software/>
+<meta name=theme-color content="#fc6f5c">
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous>
+<link rel=stylesheet href=https://use.fontawesome.com/releases/v5.6.0/css/all.css integrity=sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h crossorigin=anonymous>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin=anonymous>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css crossorigin=anonymous title=hl-light>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css crossorigin=anonymous title=hl-dark disabled>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin=anonymous>
+<link rel=stylesheet href="https://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans|Roboto+Mono&display=swap">
+<link rel=stylesheet href=/css/academia.min.76e69f7370e1e1222344c0109d841c44.css>
+<link rel=manifest href=/site.webmanifest>
+<link rel=icon type=image/png href=/img/icon.png>
+<link rel=apple-touch-icon type=image/png href=/img/icon-192.png>
+<link rel=canonical href=https://examplesite.org/post/anti-software/>
+<meta property="twitter:card" content="summary_large_image">
+<meta property="og:site_name" content="Earl's Website">
+<meta property="og:url" content="https://examplesite.org/post/anti-software/">
+<meta property="og:title" content="What is Anti-Malware? | Earl's Website">
+<meta property="og:description" content="Anti-malware is software that protects the user from financial ruin, infrastructure destruction, loss of data or loss of consumer confidence, etc through sophisticated malware techniques in detection, containment and prevention."><meta property="og:image" content="https://examplesite.org/post/anti-software/featured.jpg">
+<meta property="twitter:image" content="https://examplesite.org/post/anti-software/featured.jpg"><meta property="og:locale" content="en-us">
+<meta property="article:published_time" content="2020-08-03T00:00:00-07:00">
+<meta property="article:modified_time" content="2020-08-03T00:00:00-07:00">
+<title>What is Anti-Malware? | Earl's Website</title>
 </head>
-
-
-<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
-
-  <aside class="search-results" id="search">
-  <div class="container">
-    <section class="search-header">
-
-      <div class="row no-gutters justify-content-between mb-3">
-        <div class="col-6">
-          <h1>Search</h1>
-        </div>
-        <div class="col-6 col-search-close">
-          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
-        </div>
-      </div>
-
-      <div id="search-box">
-        
-        
-        
-      </div>
-
-    </section>
-    <section class="section-search-results">
-
-      <div id="search-hits">
-        
-      </div>
-
-    </section>
-  </div>
+<body id=top data-spy=scroll data-target=#TableOfContents data-offset=71>
+<aside class=search-results id=search>
+<div class=container>
+<section class=search-header>
+<div class="row no-gutters justify-content-between mb-3">
+<div class=col-6>
+<h1>Search</h1>
+</div>
+<div class="col-6 col-search-close">
+<a class=js-search href=#><i class="fas fa-times-circle text-muted" aria-hidden=true></i></a>
+</div>
+</div>
+<div id=search-box>
+</div>
+</section>
+<section class=section-search-results>
+<div id=search-hits>
+</div>
+</section>
+</div>
 </aside>
-
-
-  
-<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
-  <div class="container">
-
-    
-      <a class="navbar-brand" href="/">Earl&#39;s Website</a>
-      
-      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"><span><i class="fas fa-bars"></i></span>
-      </button>
-      
-
-    
-    <div class="collapse navbar-collapse" id="navbar">
-
-      
-      
-      <ul class="navbar-nav ml-auto">
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#about"><span>Home</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#accomplishments"><span>Accomplishments</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#experience"><span>Experience</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#contact"><span>Contact</span></a>
-        </li>
-
-        
-        
-
-      
-
-        
-
-        
-
-        
-
-        
-        <li class="nav-item">
-          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
-        </li>
-        
-
-      </ul>
-
-    </div>
-  </div>
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id=navbar-main>
+<div class=container>
+<a class=navbar-brand href=/>Earl's Website</a>
+<button type=button class=navbar-toggler data-toggle=collapse data-target=#navbar aria-controls=navbar aria-expanded=false aria-label="Toggle navigation"><span><i class="fas fa-bars"></i></span>
+</button>
+<div class="collapse navbar-collapse" id=navbar>
+<ul class="navbar-nav ml-auto">
+<li class=nav-item>
+<a class=nav-link href=/#about><span>Home</span></a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/#accomplishments><span>Accomplishments</span></a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/#experience><span>Experience</span></a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/#contact><span>Contact</span></a>
+</li>
+<li class=nav-item>
+<a class="nav-link js-dark-toggle" href=#><i class="fas fa-moon" aria-hidden=true></i></a>
+</li>
+</ul>
+</div>
+</div>
 </nav>
-
-
-  <article class="article py-5" itemscope itemtype="http://schema.org/Article">
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
+<article class="article py-5" itemscope itemtype=http://schema.org/Article>
 <div class="container split-header">
-  <div class="row justify-content-center">
-    <div class="col-lg-8">
-        <img class="img-fluid w-100" src="/post/anti-software/featured_hu5829c389463eeae583afa1ba5274aae3_33019_680x500_fill_q90_lanczos_smart1.jpg" itemprop="image" alt="">
-        <span
-          class="article-header-caption">Image credit: <a href="https://unsplash.com/photos/CpkOjOcXdUY"><strong>Unsplash</strong></a></span>
-    </div>
-    <div class="col-lg-8">
-      <h1 itemprop="name">What is Anti-Malware?</h1>
-
-      
-      <p class="page-subtitle">Anti-malware is software that protects the user from financial ruin, infrastructure destruction, loss of data or loss of consumer confidence, etc through sophisticated malware techniques in detection, containment and prevention.</p>
-      
-
-      
-
-
-
-<meta content="2020-08-03 00:00:00 -0700 -0700" itemprop="datePublished">
-<meta content="2020-08-03 00:00:00 -0700 -0700" itemprop="dateModified">
-
-<div class="article-metadata">
-
-  
-  
-  
-  
-  <div>
-    
-
-
-
-  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Earl Potters</a></span>
-
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    <time>Aug 3, 2020</time>
-  </span>
-  
-
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    7 min read
-  </span>
-  
-
-  
-  
-
-  
-  
-
-  
-    
-<div class="share-box" aria-hidden="true">
-  <ul class="share">
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://twitter.com/intent/tweet?url=https://examplesite.org/post/anti-software/&amp;text=What%20is%20Anti-Malware?" target="_blank" rel="noopener" class="share-btn-twitter">
-          <i class="fab fa-twitter"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://examplesite.org/post/anti-software/&amp;t=What%20is%20Anti-Malware?" target="_blank" rel="noopener" class="share-btn-facebook">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="mailto:?subject=What%20is%20Anti-Malware?&amp;body=https://examplesite.org/post/anti-software/" target="_blank" rel="noopener" class="share-btn-email">
-          <i class="fas fa-envelope"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://examplesite.org/post/anti-software/&amp;title=What%20is%20Anti-Malware?" target="_blank" rel="noopener" class="share-btn-linkedin">
-          <i class="fab fa-linkedin-in"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://web.whatsapp.com/send?text=What%20is%20Anti-Malware?%20https://examplesite.org/post/anti-software/" target="_blank" rel="noopener" class="share-btn-whatsapp">
-          <i class="fab fa-whatsapp"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://examplesite.org/post/anti-software/&amp;title=What%20is%20Anti-Malware?" target="_blank" rel="noopener" class="share-btn-weibo">
-          <i class="fab fa-weibo"></i>
-        </a>
-      </li>
-    
-  </ul>
+<div class="row justify-content-center">
+<div class=col-lg-8>
+<img class="img-fluid w-100" src=/post/anti-software/featured_hu5829c389463eeae583afa1ba5274aae3_33019_680x500_fill_q90_lanczos_smart1.jpg itemprop=image alt>
+<span class=article-header-caption>Image credit: <a href=https://unsplash.com/photos/CpkOjOcXdUY><strong>Unsplash</strong></a></span>
 </div>
-
-
-  
-
+<div class=col-lg-8>
+<h1 itemprop=name>What is Anti-Malware?</h1>
+<p class=page-subtitle>Anti-malware is software that protects the user from financial ruin, infrastructure destruction, loss of data or loss of consumer confidence, etc through sophisticated malware techniques in detection, containment and prevention.</p>
+<meta content="2020-08-03 00:00:00 -0700 -0700" itemprop=datePublished>
+<meta content="2020-08-03 00:00:00 -0700 -0700" itemprop=dateModified>
+<div class=article-metadata>
+<div>
+<span itemprop="author name" itemtype=http://schema.org/Person><a href=/authors/admin/>Earl Potters</a></span>
 </div>
-
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-    
-    </div>
-  </div>
+<span class=article-date>
+<time>Aug 3, 2020</time>
+</span>
+<span class=middot-divider></span>
+<span class=article-reading-time>
+7 min read
+</span>
+<div class=share-box aria-hidden=true>
+<ul class=share>
+<li>
+<a href="https://twitter.com/intent/tweet?url=https://examplesite.org/post/anti-software/&text=What%20is%20Anti-Malware?" target=_blank rel=noopener class=share-btn-twitter>
+<i class="fab fa-twitter"></i>
+</a>
+</li>
+<li>
+<a href="https://www.facebook.com/sharer.php?u=https://examplesite.org/post/anti-software/&t=What%20is%20Anti-Malware?" target=_blank rel=noopener class=share-btn-facebook>
+<i class="fab fa-facebook-f"></i>
+</a>
+</li>
+<li>
+<a href="mailto:?subject=What%20is%20Anti-Malware?&body=https://examplesite.org/post/anti-software/" target=_blank rel=noopener class=share-btn-email>
+<i class="fas fa-envelope"></i>
+</a>
+</li>
+<li>
+<a href="https://www.linkedin.com/shareArticle?url=https://examplesite.org/post/anti-software/&title=What%20is%20Anti-Malware?" target=_blank rel=noopener class=share-btn-linkedin>
+<i class="fab fa-linkedin-in"></i>
+</a>
+</li>
+<li>
+<a href="https://web.whatsapp.com/send?text=What%20is%20Anti-Malware?%20https://examplesite.org/post/anti-software/" target=_blank rel=noopener class=share-btn-whatsapp>
+<i class="fab fa-whatsapp"></i>
+</a>
+</li>
+<li>
+<a href="https://service.weibo.com/share/share.php?url=https://examplesite.org/post/anti-software/&title=What%20is%20Anti-Malware?" target=_blank rel=noopener class=share-btn-weibo>
+<i class="fab fa-weibo"></i>
+</a>
+</li>
+</ul>
 </div>
-
-  <div class="article-container">
-
-    <div class="article-style" itemprop="articleBody">
-      <p>In May 2017 the world was devastated by a worldwide cyber attack that affected more than 200,000 computers across 150 countries. Users and companies alike were infected by the rapidly spreading computer virus that attacked critical agency providers like the <a href="https://en.wikipedia.org/wiki/National_Health_Service">National Health Service</a>. According to <a href="https://www.cbsnews.com/news/wannacry-ransomware-attacks-wannacry-virus-losses/">Cyber risk modeling firm Cyence</a>, the hack caused hundreds of millions of dollars in damages that could have been avoided with proper software security updates and vulnerability transparency by governmental agencies like the NSA. Many still remember the historic cyber attack as the infamous WannaCry attack.</p>
-<h3 id="surviving-the-tech-wild-west">Surviving the tech Wild West</h3>
-<p><img src="./flat-wild-west-background-with-colorful-buildings_23-2147587719.jpg" alt="Wild_west">
-<a href="https://www.freepik.com/free-vector/flat-wild-west-background-with-colorful-buildings_1008160.htm"><em>Image source</em></a></p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class=article-container>
+<div class=article-style itemprop=articleBody>
+<p>In May 2017 the world was devastated by a worldwide cyber attack that affected more than 200,000 computers across 150 countries. Users and companies alike were infected by the rapidly spreading computer virus that attacked critical agency providers like the <a href=https://en.wikipedia.org/wiki/National_Health_Service>National Health Service</a>. According to <a href=https://www.cbsnews.com/news/wannacry-ransomware-attacks-wannacry-virus-losses/>Cyber risk modeling firm Cyence</a>, the hack caused hundreds of millions of dollars in damages that could have been avoided with proper software security updates and vulnerability transparency by governmental agencies like the NSA. Many still remember the historic cyber attack as the infamous WannaCry attack.</p>
+<h3 id=surviving-the-tech-wild-west>Surviving the tech Wild West</h3>
+<p><img src=./flat-wild-west-background-with-colorful-buildings_23-2147587719.jpg alt=Wild_west>
+<a href=https://www.freepik.com/free-vector/flat-wild-west-background-with-colorful-buildings_1008160.htm><em>Image source</em></a></p>
 <p>With cyber attacks posing real threats to peoples’ livelihoods, it’s not hard to see why protecting yourself from such attacks can be vitally important to governments, businesses and individuals.</p>
-<h3 id="it-starts-with-you">It Starts With You</h3>
-<p>The first line of defense often starts with you, the user, to be situationally aware of your actions on the world wide web. That entails sifting through <a href="https://www.malwarebytes.com/phishing/">phishing</a> scams and suspicious websites, links or attachments. More often than not, good internet common sense can save you a lot of trouble; an ounce of <strong>prevention</strong> is worth a pound of a <strong>cure.</strong></p>
-<h3 id="call-in-the-calvary">Call In The Calvary</h3>
+<h3 id=it-starts-with-you>It Starts With You</h3>
+<p>The first line of defense often starts with you, the user, to be situationally aware of your actions on the world wide web. That entails sifting through <a href=https://www.malwarebytes.com/phishing/>phishing</a> scams and suspicious websites, links or attachments. More often than not, good internet common sense can save you a lot of trouble; an ounce of <strong>prevention</strong> is worth a pound of a <strong>cure.</strong></p>
+<h3 id=call-in-the-calvary>Call In The Calvary</h3>
 <p>In addition to common good internet practices, the second best thing to invest in is anti-malware/antivirus software. Anti-malware’s main objective is to stop any malicious threats from infecting your computer; those include a platitude of threats ranging from computer viruses to internet worms.</p>
 <p>Not having antivirus (AV) technology can lead to malware breaches. Currently, malware breaches of all sizes are costing industries $350 billion a year! That is why cyber-breaches incentivize companies and governments to heavily invest in cyber-security.</p>
 <p>Anti-malware software is thus an incredibly useful tool to help identify and eliminate many malware threats.</p>
 <p>In this article, I will go over the reason why anti-malware is important and what types of malware are out there. Furthermore, I will go over in-depth the certain techniques used to do malware analysis and investigations. Lastly, there will a reading list to give you a review of some great anti-malware software out there.</p>
-<h3 id="team-red-malicious-rogue-bandits">Team Red: Malicious Rogue Bandits</h3>
-<p><img src="./rogue-bandits.jpg" alt="Bandits and Roguges">
-<a href="https://www.vectorstock.com/royalty-free-vector/vintage-wild-west-bandit-poster-vector-15386994"><em>Image source</em></a></p>
+<h3 id=team-red-malicious-rogue-bandits>Team Red: Malicious Rogue Bandits</h3>
+<p><img src=./rogue-bandits.jpg alt="Bandits and Roguges">
+<a href=https://www.vectorstock.com/royalty-free-vector/vintage-wild-west-bandit-poster-vector-15386994><em>Image source</em></a></p>
 <p>What bandits and gangs were to the Wild West, hackers and scammers are in the 21st century. Only difference — they use malware instead of guns to attack and exfiltrate personal data.</p>
-<h3 id="overview-what-exactly-is-malware">Overview: What exactly is Malware?</h3>
-<p>According to <a href="https://blog.malwarebytes.com/glossary/malware/">Malwarebytes Labs</a>, <em>Malware, or “malicious software,” is an umbrella term that refers to any malicious program or code that is harmful to systems.</em></p>
+<h3 id=overview-what-exactly-is-malware>Overview: What exactly is Malware?</h3>
+<p>According to <a href=https://blog.malwarebytes.com/glossary/malware/>Malwarebytes Labs</a>, <em>Malware, or “malicious software,” is an umbrella term that refers to any malicious program or code that is harmful to systems.</em></p>
 <p>Malware is usually intentionally designed to either destroy data, install additional programs or exfiltrate (steal) data. For instance, malware can break computer systems or even be part of a larger agenda in the case of WannaCry. In summary, malware compromises the confidentiality, integrity, and availability (CIA for short) of a victim’s data.</p>
 <p>It is important to understand why malware is a huge concern. Companies large and small are constant targets for malware attacks.</p>
 <p>Furthermore, individuals who aren’t likely end-targets can still become potentially impacted as an intermediary; that is, they can be used, for example, as bots in a much larger botnet to enact major attacks like DDoS(distributed denial of service) attacks, etc. These attacks typically result in loss of data, intellectual property, competitive advantage, and loss of overall consumer confidence.</p>
-<h3 id="malware-arsenal">Malware Arsenal</h3>
-<p><img src="./bandit_arsenal.jpg" alt="bandit_arsenal">
-<a href="https://www.bigstockphoto.com/image-271869916/stock-vector-colored-vector-illustrations-of-wild-west-weapons-and-items-isolated-on-white?utm_medium=Affiliate&amp;utm_campaign=TinEye&amp;utm_source=77643&amp;utm_term="><em>Image source</em></a></p>
+<h3 id=malware-arsenal>Malware Arsenal</h3>
+<p><img src=./bandit_arsenal.jpg alt=bandit_arsenal>
+<a href="https://www.bigstockphoto.com/image-271869916/stock-vector-colored-vector-illustrations-of-wild-west-weapons-and-items-isolated-on-white?utm_medium=Affiliate&utm_campaign=TinEye&utm_source=77643&utm_term="><em>Image source</em></a></p>
 <p>Now, let’s look at some of the major forms of malware.</p>
-<h3 id="viruses">Viruses</h3>
+<h3 id=viruses>Viruses</h3>
 <p>Computer viruses can run on any operating system, be it Windows or Mac. Computer viruses are actually, contrary to common belief, a type of malware. Viruses are defined as follows:</p>
 <ol>
 <li>A computer virus requires a host program.</li>
 <li>A computer virus requires user action to transmit from one system to another.</li>
 <li>A computer virus attaches bits of its own malicious code to other files or replaces files outright with copies of itself.</li>
 </ol>
-<h3 id="worms">Worms</h3>
+<h3 id=worms>Worms</h3>
 <p>In contrast to computer viruses, worms are capable of spreading and executing itself from one system to another without user interaction. Afterward, worms can do various malicious tasks such as dropping a payload, affecting the file system and consuming computer resources.</p>
 <p>There are two main types of worms: Network Service Worms, Mass Mailing Worms.</p>
-<h3 id="trojan-horse-programs">Trojan Horse Programs</h3>
+<h3 id=trojan-horse-programs>Trojan Horse Programs</h3>
 <p>Next, we have the Trojan horse programs. According to Greek mythology, the Greeks built a wooden horse to subterfuge the city of Troy. Much like the Greek Trojan, the computer Trojan horse aims to infect your computer using deception by tricking users into running seemingly benign computer programs.</p>
-<h3 id="ransomware">Ransomware</h3>
+<h3 id=ransomware>Ransomware</h3>
 <p>Finally we have ransomware. Ransomware &ldquo;<em>is malicious software that blocks access to the victim’s data until a ransom is paid</em>.” — <a href="https://medium.com/@TheTechTutor?source=post_elevate_sequence_page-----b255b627c879----------------------">David Koff</a>. It usually involves encrypting one&rsquo;s files to render it unreadable to the victims. This incentivizes victims to pay up, usually using cryptocurrencies such as Bitcoin.</p>
-<h3 id="team-blue-the-marshal-and-deputy">Team Blue: The Marshal and Deputy</h3>
-<p><img src="./marshal_badges.jpg" alt="marshal_badge">
-<a href="https://www.google.com/search?tbs=simg:CAQSmAIJUgEqR_1jOuMQajAILELCMpwgaYgpgCAMSKJQX5wGBDIsMsgzwFsUM7xaVF5IXqzSFNfQ3rjTiJIIjqDaQJOMplSkaMFSG3g2HYBxTQAkiN7bp-IoFQ6LGQRvpqGIvSt6X4bSWrfibKNlpP3mBaSYhZruTNyAEDAsQjq7-CBoKCggIARIEnjKBEQwLEJ3twQkahAEKGQoGZW1ibGVt2qWI9gMLCgkvbS8wMXdrOWMKGAoFYmFkZ2XapYj2AwsKCS9tLzAzY255OQoYCgZjaXJjbGXapYj2AwoKCC9tLzAxdmtsChYKBHN0YXLapYj2AwoKCC9tLzA2bmdrChsKCWFpciBmb3JjZdqliPYDCgoIL20vMDEzbTEM&amp;sxsrf=ALeKk00fnz1awR5UZ2suwA_GCs6tZoJE7g:1596539541828&amp;q=old+west+marshall+badge&amp;tbm=isch&amp;sa=X&amp;ved=2ahUKEwi_rYqitYHrAhVJI6wKHfwECEoQwg4oAHoECAkQKQ&amp;biw=1694&amp;bih=837&amp;dpr=1.09#imgrc=fXAmoyg5R7o1UM"><em>Image source</em></a></p>
+<h3 id=team-blue-the-marshal-and-deputy>Team Blue: The Marshal and Deputy</h3>
+<p><img src=./marshal_badges.jpg alt=marshal_badge>
+<a href="https://www.google.com/search?tbs=simg:CAQSmAIJUgEqR_1jOuMQajAILELCMpwgaYgpgCAMSKJQX5wGBDIsMsgzwFsUM7xaVF5IXqzSFNfQ3rjTiJIIjqDaQJOMplSkaMFSG3g2HYBxTQAkiN7bp-IoFQ6LGQRvpqGIvSt6X4bSWrfibKNlpP3mBaSYhZruTNyAEDAsQjq7-CBoKCggIARIEnjKBEQwLEJ3twQkahAEKGQoGZW1ibGVt2qWI9gMLCgkvbS8wMXdrOWMKGAoFYmFkZ2XapYj2AwsKCS9tLzAzY255OQoYCgZjaXJjbGXapYj2AwoKCC9tLzAxdmtsChYKBHN0YXLapYj2AwoKCC9tLzA2bmdrChsKCWFpciBmb3JjZdqliPYDCgoIL20vMDEzbTEM&sxsrf=ALeKk00fnz1awR5UZ2suwA_GCs6tZoJE7g:1596539541828&q=old+west+marshall+badge&tbm=isch&sa=X&ved=2ahUKEwi_rYqitYHrAhVJI6wKHfwECEoQwg4oAHoECAkQKQ&biw=1694&bih=837&dpr=1.09#imgrc=fXAmoyg5R7o1UM"><em>Image source</em></a></p>
 <p>In the Wild West the marshal and deputy were there to protect the simple town folk from bandits and gangs. That is now the job of Anti-Malware.</p>
-<h3 id="overview-what-exactly-is-anti-malware">Overview: What exactly is Anti-Malware?</h3>
+<h3 id=overview-what-exactly-is-anti-malware>Overview: What exactly is Anti-Malware?</h3>
 <p>Anti-malware is software that protects the user from infrastructure destruction, financial ruin, loss of data or loss of consumer confidence, etc. through sophisticated malware techniques in detection, containment and prevention.</p>
 <p>Anti-malware usually contains various techniques for malware protection and can provide different protection strategies and tools for different malware attacks such as anti-phishing or anti-ransomware protection.</p>
-<p><img src="./security_shield.jpg" alt="virus_prtection">
-<a href="https://www.google.com/search?tbs=simg:CAQSwQIJO9IdVJ2RTcUatQILELCMpwgaYgpgCAMSKJACuAaOAo8CsAbyE58StAagEo0Csyi8IfY2liDjNuk2tzOYNO8m4DYaMGrwhYQhy6v2GYBmfdv5DZiu73eQH_1qEqzi2_1ySxu6hNA8fAALx9qxXIzHq_1ozGYDiAEDAsQjq7-CBoKCggIARIEP9PNCgwLEJ3twQkarQEKIAoNY29tcHV0ZXIgY2FzZdqliPYDCwoJL20vMDQ5ZDhiCiIKD3ZlbmRpbmcgbWFjaGluZdqliPYDCwoJL20vMDFuZnJyCiIKDm51bWVyaWMga2V5cGFk2qWI9gMMCgovbS8wMjV0M2p0ChgKBnNlcnZlctqliPYDCgoIL20vMGJreGoKJwoTbXVsdGltZWRpYSBzb2Z0d2FyZdqliPYDDAoKL20vMHc4OHh0aAw&amp;sxsrf=ALeKk00CIY1Ste7Cy63UfHd_N3rle0_t9A:1596539622971&amp;q=cloud+anti+virus&amp;tbm=isch&amp;sa=X&amp;ved=2ahUKEwjv3-LItYHrAhVHVK0KHUzpDLAQwg4oAHoECAkQKQ&amp;biw=1694&amp;bih=837&amp;dpr=1.09"><em>Image source</em></a></p>
-<h3 id="malware-protection">Malware Protection</h3>
+<p><img src=./security_shield.jpg alt=virus_prtection>
+<a href="https://www.google.com/search?tbs=simg:CAQSwQIJO9IdVJ2RTcUatQILELCMpwgaYgpgCAMSKJACuAaOAo8CsAbyE58StAagEo0Csyi8IfY2liDjNuk2tzOYNO8m4DYaMGrwhYQhy6v2GYBmfdv5DZiu73eQH_1qEqzi2_1ySxu6hNA8fAALx9qxXIzHq_1ozGYDiAEDAsQjq7-CBoKCggIARIEP9PNCgwLEJ3twQkarQEKIAoNY29tcHV0ZXIgY2FzZdqliPYDCwoJL20vMDQ5ZDhiCiIKD3ZlbmRpbmcgbWFjaGluZdqliPYDCwoJL20vMDFuZnJyCiIKDm51bWVyaWMga2V5cGFk2qWI9gMMCgovbS8wMjV0M2p0ChgKBnNlcnZlctqliPYDCgoIL20vMGJreGoKJwoTbXVsdGltZWRpYSBzb2Z0d2FyZdqliPYDDAoKL20vMHc4OHh0aAw&sxsrf=ALeKk00CIY1Ste7Cy63UfHd_N3rle0_t9A:1596539622971&q=cloud+anti+virus&tbm=isch&sa=X&ved=2ahUKEwjv3-LItYHrAhVHVK0KHUzpDLAQwg4oAHoECAkQKQ&biw=1694&bih=837&dpr=1.09"><em>Image source</em></a></p>
+<h3 id=malware-protection>Malware Protection</h3>
 <p>There are roughly four areas that comprise malware protection:</p>
 <ul>
 <li>Recovery</li>
@@ -575,287 +198,119 @@
 <li>Containment</li>
 <li>Eradication/Mitigation</li>
 </ul>
-<p>In this article we are more interested in the identification part. Identification and forensics can be split up into two main parts: <a href="https://en.wikipedia.org/wiki/Malware_analysis">static malware analysis and dynamic malware analysis</a>. There are many other forms of analysis such as memory and resource use forensics, web and network analysis and specific sandboxing techniques. However, that is beyond the scope of this blog post.</p>
-<h3 id="malware-analysis">Malware Analysis</h3>
+<p>In this article we are more interested in the identification part. Identification and forensics can be split up into two main parts: <a href=https://en.wikipedia.org/wiki/Malware_analysis>static malware analysis and dynamic malware analysis</a>. There are many other forms of analysis such as memory and resource use forensics, web and network analysis and specific sandboxing techniques. However, that is beyond the scope of this blog post.</p>
+<h3 id=malware-analysis>Malware Analysis</h3>
 <p><em>This is nowhere near a comprehensive list of Malware Analysis but more of an overview. There will be a reading list for those who are more interested in the nitty-gritty details.</em></p>
-<h4 id="static-malware-analysis">Static Malware Analysis</h4>
+<h4 id=static-malware-analysis>Static Malware Analysis</h4>
 <p>Static malware analysis is a way of examining code without executing it on your device. There are many techniques and tools, both paid and open-source that help carry out forensic investigation. The following tools and techniques are:</p>
-<h4 id="disassemble">Disassemble</h4>
-<p>Malware is sometimes reversed-engineered/dissembled using tools called disassemblers. <em>“A</em> <strong><em>disassembler</em></strong> <em>is a</em> <a href="https://en.wikipedia.org/wiki/Computer_program"><em>computer program</em></a> <em>that</em> <a href="https://en.wikipedia.org/wiki/Translator_(computing)"><em>translates</em></a>  <a href="https://en.wikipedia.org/wiki/Machine_language"><em>machine language</em></a> <em>into</em> <a href="https://en.wikipedia.org/wiki/Assembly_language"><em>assembly language</em></a><em>” — wiki.</em>
+<h4 id=disassemble>Disassemble</h4>
+<p>Malware is sometimes reversed-engineered/dissembled using tools called disassemblers. <em>“A</em> <strong><em>disassembler</em></strong> <em>is a</em> <a href=https://en.wikipedia.org/wiki/Computer_program><em>computer program</em></a> <em>that</em> <a href=https://en.wikipedia.org/wiki/Translator_(computing)><em>translates</em></a> <a href=https://en.wikipedia.org/wiki/Machine_language><em>machine language</em></a> <em>into</em> <a href=https://en.wikipedia.org/wiki/Assembly_language><em>assembly language</em></a><em>” — wiki.</em>
 Now for those of you who don’t speak tech-speak, this means AV is looking into the low-level program instructions to find out if the program will execute malicious code without executing it. Cool!</p>
-<h4 id="file-fingerprinting">File Fingerprinting</h4>
+<h4 id=file-fingerprinting>File Fingerprinting</h4>
 <p><strong><em>File fingerprinting</em></strong> <em>is a unique bit string identifier for large data items</em>. Just as a fingerprint can be used to identify the person a file fingerprint can identify the original file. AV software has a database of fingerprints of malware so that they can quickly identify the bad apples from the good ones.</p>
-<h4 id="packer-detection">Packer Detection</h4>
+<h4 id=packer-detection>Packer Detection</h4>
 <p>Hackers are not dumb so more often times than not they add a level of armor to their code called a packer. <strong><em>Packers</em></strong> <em>compress or encrypt executable files so that it&rsquo;s harder to find out the true contents of a file</em>. Lucky for us, AV also have a few tricks themselves to identify packers and retrieve their content.</p>
-<p>They look at something called the <a href="https://en.wikipedia.org/wiki/Portable_Executable">portable executable</a> (PE) header which contains information about the file format in Windows similar to ELF for Linux and Mach-O for MacOS.</p>
-<h4 id="dynamic-malware-analysis">Dynamic Malware Analysis</h4>
+<p>They look at something called the <a href=https://en.wikipedia.org/wiki/Portable_Executable>portable executable</a> (PE) header which contains information about the file format in Windows similar to ELF for Linux and Mach-O for MacOS.</p>
+<h4 id=dynamic-malware-analysis>Dynamic Malware Analysis</h4>
 <p><strong>Virtualization/Sandboxing</strong></p>
 <p>In the aim to provide a safe space to analyze code, highly controlled environments called sandboxes are frequently used to test and run unverified programs which may contain malicious code.</p>
 <p>Virtualization and/or sandboxing allows a host to determine what and how much resources a program can have or use at a given time. All without worrying of infecting the computer!</p>
 <p><strong>Debugger</strong></p>
-<p>Debuggers such as <a href="https://en.wikipedia.org/wiki/GNU_Debugger">GDB</a> or <a href="https://en.wikipedia.org/wiki/WinDbg">WinDBG</a> are programs that allow you to look at how programs behave during runtime as well as what effects it has on the host’s system. Debuggers give a wide variety of insights about how code is executed instruction by instruction.</p>
-<h3 id="elect-your-town-sheriff">Elect Your Town Sheriff</h3>
-<p><img src="./New_Sheriff_in_Town.jpg" alt="town_sheriff"></p>
-<p><a href="https://www.google.com/search?tbs=simg:CAQSnwIJ2yJsUXvW6G4akwILELCMpwgaYQpfCAMSJ-4IuwNg7wixA-YI6AjKCPMIwQP4PZk1-T3PN7cn4DSpNbkp9T38PRowcRkeEiQ7oK5sIRv_1v_1zkk9sjJkX--g_17_1BFHARu_1E1vQtj56TKP0vMOAZ1A_1ErXdIAQMCxCOrv4IGgoKCAgBEgRRmgYPDAsQne3BCRqMAQoWCgNlcmfapYj2AwsKCS9tLzBkNzlqcQoZCgZzYWhhcmHapYj2AwsKCS9tLzAxdzF2dAobCgh2YWNhdGlvbtqliPYDCwoJL20vMDJqd3FoCh8KDHNpbmdpbmcgc2FuZNqliPYDCwoJL20vMDE5NHY0ChkKB3BseXdvb2TapYj2AwoKCC9tLzBqaDh3DA&amp;sxsrf=ALeKk034-B4ffrL1T814yJm67B1W__pA0Q:1596539712877&amp;q=sheriff+callie%27s+wild+west+toby+gets+the+scoop&amp;tbm=isch&amp;sa=X&amp;ved=2ahUKEwijsdLztYHrAhUCYKwKHWjACHcQwg4oAHoECAkQKQ&amp;biw=1694&amp;bih=837&amp;dpr=1.09"><em>Image source</em></a></p>
-<p>Now that you know about the good guys and the bad guys, how are you going to protect yourself? I recommend anyone to take a look at <a href="https://medium.com/s/the-firewall/episode5-antimalware-software-b255b627c879">What is Malware? And How to Protect Yourself Against It</a>; it will give you a brief review on possible good anti-malware software.</p>
-<h3 id="in-summary">In Summary</h3>
+<p>Debuggers such as <a href=https://en.wikipedia.org/wiki/GNU_Debugger>GDB</a> or <a href=https://en.wikipedia.org/wiki/WinDbg>WinDBG</a> are programs that allow you to look at how programs behave during runtime as well as what effects it has on the host’s system. Debuggers give a wide variety of insights about how code is executed instruction by instruction.</p>
+<h3 id=elect-your-town-sheriff>Elect Your Town Sheriff</h3>
+<p><img src=./New_Sheriff_in_Town.jpg alt=town_sheriff></p>
+<p><a href="https://www.google.com/search?tbs=simg:CAQSnwIJ2yJsUXvW6G4akwILELCMpwgaYQpfCAMSJ-4IuwNg7wixA-YI6AjKCPMIwQP4PZk1-T3PN7cn4DSpNbkp9T38PRowcRkeEiQ7oK5sIRv_1v_1zkk9sjJkX--g_17_1BFHARu_1E1vQtj56TKP0vMOAZ1A_1ErXdIAQMCxCOrv4IGgoKCAgBEgRRmgYPDAsQne3BCRqMAQoWCgNlcmfapYj2AwsKCS9tLzBkNzlqcQoZCgZzYWhhcmHapYj2AwsKCS9tLzAxdzF2dAobCgh2YWNhdGlvbtqliPYDCwoJL20vMDJqd3FoCh8KDHNpbmdpbmcgc2FuZNqliPYDCwoJL20vMDE5NHY0ChkKB3BseXdvb2TapYj2AwoKCC9tLzBqaDh3DA&sxsrf=ALeKk034-B4ffrL1T814yJm67B1W__pA0Q:1596539712877&q=sheriff+callie%27s+wild+west+toby+gets+the+scoop&tbm=isch&sa=X&ved=2ahUKEwijsdLztYHrAhUCYKwKHWjACHcQwg4oAHoECAkQKQ&biw=1694&bih=837&dpr=1.09"><em>Image source</em></a></p>
+<p>Now that you know about the good guys and the bad guys, how are you going to protect yourself? I recommend anyone to take a look at <a href=https://medium.com/s/the-firewall/episode5-antimalware-software-b255b627c879>What is Malware? And How to Protect Yourself Against It</a>; it will give you a brief review on possible good anti-malware software.</p>
+<h3 id=in-summary>In Summary</h3>
 <p>We covered four main areas in this article; we covered an overview of malware and its major forms; we went in depth on several major types of malware. We also talked about the what anti-malware does and its main objective. Lastly, we gave a general malware analysis overview usually done by anti-software.</p>
 <p>I hope you enjoyed this brief overview of anti-malware!</p>
-    </div>
-
-    
-
-<div class="article-tags">
-  
-  <a class="badge badge-light" href="/tags/academia/">academia</a>
-  
 </div>
-
-
-
-    
-      
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-  
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
-    
-
-    <div class="media-body">
-      <h5 class="card-title" itemprop="name"><a href="https://examplesite.org">Earl Potters</a></h5>
-      <h6 class="card-subtitle">Smart-Contract Developer</h6>
-      <p class="card-text" itemprop="description">My interests include robotics, simulation and artificial intelligence.</p>
-      <ul class="network-icon" aria-hidden="true">
-        
-          
-          
-          
-            
-          
-          
-          
-          
-          
-            
-          
-          <li>
-            <a itemprop="sameAs" href="/#contact" >
-              <i class="fas fa-envelope"></i>
-            </a>
-          </li>
-        
-          
-          
-          
-            
-          
-          
-          
-          
-          
-            
-          
-          <li>
-            <a itemprop="sameAs" href="https://github.com/Slyracoon23" target="_blank" rel="noopener">
-              <i class="fab fa-github"></i>
-            </a>
-          </li>
-        
-          
-          
-          
-            
-          
-          
-          
-          
-          
-            
-          
-          <li>
-            <a itemprop="sameAs" href="https://www.linkedin.com/in/earl-potters-b2b306187/" target="_blank" rel="noopener">
-              <i class="fab fa-linkedin"></i>
-            </a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-
-
-      
-      
-      <div class="article-widget">
-        <div class="hr-light"></div>
-        <h3>Related</h3>
-        <ul>
-          
-          <li><a href="/post/end-2-end-encryption/">End-to-End Encryption (E2EE) Explained</a></li>
-          
-        </ul>
-      </div>
-      
-    
-
-    
-
-    
-
-
-  </div>
+<div class=article-tags>
+<a class="badge badge-light" href=/tags/academia/>academia</a>
+</div>
+<div class="media author-card" itemscope itemtype=http://schema.org/Person>
+<div class=media-body>
+<h5 class=card-title itemprop=name><a href=https://examplesite.org>Earl Potters</a></h5>
+<h6 class=card-subtitle>Smart-Contract Developer</h6>
+<p class=card-text itemprop=description>My interests include robotics, simulation and artificial intelligence.</p>
+<ul class=network-icon aria-hidden=true>
+<li>
+<a itemprop=sameAs href=/#contact>
+<i class="fas fa-envelope"></i>
+</a>
+</li>
+<li>
+<a itemprop=sameAs href=https://github.com/Slyracoon23 target=_blank rel=noopener>
+<i class="fab fa-github"></i>
+</a>
+</li>
+<li>
+<a itemprop=sameAs href=https://www.linkedin.com/in/earl-potters-b2b306187/ target=_blank rel=noopener>
+<i class="fab fa-linkedin"></i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div class=article-widget>
+<div class=hr-light></div>
+<h3>Related</h3>
+<ul>
+<li><a href=/post/end-2-end-encryption/>End-to-End Encryption (E2EE) Explained</a></li>
+</ul>
+</div>
+</div>
 </article>
-
-      
-
-    
-    
-
-    
-    
-    
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
-
-      
-
-      
-        
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
-        
-      
-
-      
-      
-    
-
-    
-    
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
-    
-
-    
-    
-    
-
-    
-    
-    <script>hljs.initHighlightingOnLoad();</script>
-    
-
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <script src="/js/academia.min.e40e230d9b3dfeac86994156b6388764.js"></script>
-
-    
-
-
-
-
-
-
-  
-  <div class="container">
-    <footer class="site-footer">
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        
-        <p class="powered-by">
-          <a href="/privacy/">Privacy Policy</a>
-        </p>
-        
-        <p>
-          
-          Powered by
-          <a href="https://themefisher.com" target="_blank" rel="noopener">themefisher</a> for
-          <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
-        </p>
-      </div>
-      <div class="col-md-6">
-        <ul class="list-inline network-icon text-right">
-          
-          
-        </ul>
-      </div>
-    </div>
-  </div>
-</footer>
-  </div>
-  
-
-  
-<div id="modal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Cite</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <pre><code class="tex hljs"></code></pre>
-      </div>
-      <div class="modal-footer">
-        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
-          <i class="fas fa-copy"></i> Copy
-        </a>
-        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
-          <i class="fas fa-download"></i> Download
-        </a>
-        <div id="modal-error"></div>
-      </div>
-    </div>
-  </div>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin=anonymous></script>
+<script>hljs.initHighlightingOnLoad()</script>
+<script src=/js/academia.min.e40e230d9b3dfeac86994156b6388764.js></script>
+<div class=container>
+<footer class=site-footer>
+<div class=container>
+<div class=row>
+<div class=col-md-6>
+<p>
+Powered by
+<a href=https://themefisher.com target=_blank rel=noopener>themefisher</a> for
+<a href=https://gohugo.io target=_blank rel=noopener>Hugo</a>.
+</p>
 </div>
-
+<div class=col-md-6>
+<ul class="list-inline network-icon text-right">
+</ul>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div id=modal class="modal fade" role=dialog>
+<div class=modal-dialog>
+<div class=modal-content>
+<div class=modal-header>
+<h5 class=modal-title>Cite</h5>
+<button type=button class=close data-dismiss=modal aria-label=Close>
+<span aria-hidden=true>&#215;</span>
+</button>
+</div>
+<div class=modal-body>
+<pre><code class="tex hljs"></code></pre>
+</div>
+<div class=modal-footer>
+<a class="btn btn-outline-primary my-1 js-copy-cite" href=# target=_blank>
+<i class="fas fa-copy"></i> Copy
+</a>
+<a class="btn btn-outline-primary my-1 js-download-cite" href=# target=_blank>
+<i class="fas fa-download"></i> Download
+</a>
+<div id=modal-error></div>
+</div>
+</div>
+</div>
+</div>
 </body>
 </html>

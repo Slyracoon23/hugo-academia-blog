@@ -1,304 +1,260 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Earl&#39;s Website</title>
-    <link>https://examplesite.org/authors/admin/</link>
-    <description>Recent content on Earl&#39;s Website</description>
-    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 03 Aug 2020 00:00:00 -0700</lastBuildDate>
-    
-	    <atom:link href="https://examplesite.org/authors/admin/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>What is Anti-Malware?</title>
-      <link>https://examplesite.org/post/anti-software/</link>
-      <pubDate>Mon, 03 Aug 2020 00:00:00 -0700</pubDate>
-      
-      <guid>https://examplesite.org/post/anti-software/</guid>
-      <description>&lt;p&gt;In May 2017 the world was devastated by a worldwide cyber attack that affected more than 200,000 computers across 150 countries. Users and companies alike were infected by the rapidly spreading computer virus that attacked critical agency providers like the &lt;a href=&#34;https://en.wikipedia.org/wiki/National_Health_Service&#34;&gt;National Health Service&lt;/a&gt;. According to &lt;a href=&#34;https://www.cbsnews.com/news/wannacry-ransomware-attacks-wannacry-virus-losses/&#34;&gt;Cyber risk modeling firm Cyence&lt;/a&gt;, the hack caused hundreds of millions of dollars in damages that could have been avoided with proper software security updates and vulnerability transparency by governmental agencies like the NSA. Many still remember the historic cyber attack as the infamous WannaCry attack.&lt;/p&gt;
-&lt;h3 id=&#34;surviving-the-tech-wild-west&#34;&gt;Surviving the tech Wild West&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;./flat-wild-west-background-with-colorful-buildings_23-2147587719.jpg&#34; alt=&#34;Wild_west&#34;&gt;
-&lt;a href=&#34;https://www.freepik.com/free-vector/flat-wild-west-background-with-colorful-buildings_1008160.htm&#34;&gt;&lt;em&gt;Image source&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;With cyber attacks posing real threats to peoples’ livelihoods, it’s not hard to see why protecting yourself from such attacks can be vitally important to governments, businesses and individuals.&lt;/p&gt;
-&lt;h3 id=&#34;it-starts-with-you&#34;&gt;It Starts With You&lt;/h3&gt;
-&lt;p&gt;The first line of defense often starts with you, the user, to be situationally aware of your actions on the world wide web. That entails sifting through &lt;a href=&#34;https://www.malwarebytes.com/phishing/&#34;&gt;phishing&lt;/a&gt; scams and suspicious websites, links or attachments. More often than not, good internet common sense can save you a lot of trouble; an ounce of &lt;strong&gt;prevention&lt;/strong&gt; is worth a pound of a &lt;strong&gt;cure.&lt;/strong&gt;&lt;/p&gt;
-&lt;h3 id=&#34;call-in-the-calvary&#34;&gt;Call In The Calvary&lt;/h3&gt;
-&lt;p&gt;In addition to common good internet practices, the second best thing to invest in is anti-malware/antivirus software. Anti-malware’s main objective is to stop any malicious threats from infecting your computer; those include a platitude of threats ranging from computer viruses to internet worms.&lt;/p&gt;
-&lt;p&gt;Not having antivirus (AV) technology can lead to malware breaches. Currently, malware breaches of all sizes are costing industries $350 billion a year! That is why cyber-breaches incentivize companies and governments to heavily invest in cyber-security.&lt;/p&gt;
-&lt;p&gt;Anti-malware software is thus an incredibly useful tool to help identify and eliminate many malware threats.&lt;/p&gt;
-&lt;p&gt;In this article, I will go over the reason why anti-malware is important and what types of malware are out there. Furthermore, I will go over in-depth the certain techniques used to do malware analysis and investigations. Lastly, there will a reading list to give you a review of some great anti-malware software out there.&lt;/p&gt;
-&lt;h3 id=&#34;team-red-malicious-rogue-bandits&#34;&gt;Team Red: Malicious Rogue Bandits&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;./rogue-bandits.jpg&#34; alt=&#34;Bandits and Roguges&#34;&gt;
-&lt;a href=&#34;https://www.vectorstock.com/royalty-free-vector/vintage-wild-west-bandit-poster-vector-15386994&#34;&gt;&lt;em&gt;Image source&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;What bandits and gangs were to the Wild West, hackers and scammers are in the 21st century. Only difference — they use malware instead of guns to attack and exfiltrate personal data.&lt;/p&gt;
-&lt;h3 id=&#34;overview-what-exactly-is-malware&#34;&gt;Overview: What exactly is Malware?&lt;/h3&gt;
-&lt;p&gt;According to &lt;a href=&#34;https://blog.malwarebytes.com/glossary/malware/&#34;&gt;Malwarebytes Labs&lt;/a&gt;, &lt;em&gt;Malware, or “malicious software,” is an umbrella term that refers to any malicious program or code that is harmful to systems.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Malware is usually intentionally designed to either destroy data, install additional programs or exfiltrate (steal) data. For instance, malware can break computer systems or even be part of a larger agenda in the case of WannaCry. In summary, malware compromises the confidentiality, integrity, and availability (CIA for short) of a victim’s data.&lt;/p&gt;
-&lt;p&gt;It is important to understand why malware is a huge concern. Companies large and small are constant targets for malware attacks.&lt;/p&gt;
-&lt;p&gt;Furthermore, individuals who aren’t likely end-targets can still become potentially impacted as an intermediary; that is, they can be used, for example, as bots in a much larger botnet to enact major attacks like DDoS(distributed denial of service) attacks, etc. These attacks typically result in loss of data, intellectual property, competitive advantage, and loss of overall consumer confidence.&lt;/p&gt;
-&lt;h3 id=&#34;malware-arsenal&#34;&gt;Malware Arsenal&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;./bandit_arsenal.jpg&#34; alt=&#34;bandit_arsenal&#34;&gt;
-&lt;a href=&#34;https://www.bigstockphoto.com/image-271869916/stock-vector-colored-vector-illustrations-of-wild-west-weapons-and-items-isolated-on-white?utm_medium=Affiliate&amp;amp;utm_campaign=TinEye&amp;amp;utm_source=77643&amp;amp;utm_term=&#34;&gt;&lt;em&gt;Image source&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Now, let’s look at some of the major forms of malware.&lt;/p&gt;
-&lt;h3 id=&#34;viruses&#34;&gt;Viruses&lt;/h3&gt;
-&lt;p&gt;Computer viruses can run on any operating system, be it Windows or Mac. Computer viruses are actually, contrary to common belief, a type of malware. Viruses are defined as follows:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;A computer virus requires a host program.&lt;/li&gt;
-&lt;li&gt;A computer virus requires user action to transmit from one system to another.&lt;/li&gt;
-&lt;li&gt;A computer virus attaches bits of its own malicious code to other files or replaces files outright with copies of itself.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;worms&#34;&gt;Worms&lt;/h3&gt;
-&lt;p&gt;In contrast to computer viruses, worms are capable of spreading and executing itself from one system to another without user interaction. Afterward, worms can do various malicious tasks such as dropping a payload, affecting the file system and consuming computer resources.&lt;/p&gt;
-&lt;p&gt;There are two main types of worms: Network Service Worms, Mass Mailing Worms.&lt;/p&gt;
-&lt;h3 id=&#34;trojan-horse-programs&#34;&gt;Trojan Horse Programs&lt;/h3&gt;
-&lt;p&gt;Next, we have the Trojan horse programs. According to Greek mythology, the Greeks built a wooden horse to subterfuge the city of Troy. Much like the Greek Trojan, the computer Trojan horse aims to infect your computer using deception by tricking users into running seemingly benign computer programs.&lt;/p&gt;
-&lt;h3 id=&#34;ransomware&#34;&gt;Ransomware&lt;/h3&gt;
-&lt;p&gt;Finally we have ransomware. Ransomware &amp;ldquo;&lt;em&gt;is malicious software that blocks access to the victim’s data until a ransom is paid&lt;/em&gt;.” — &lt;a href=&#34;https://medium.com/@TheTechTutor?source=post_elevate_sequence_page-----b255b627c879----------------------&#34;&gt;David Koff&lt;/a&gt;. It usually involves encrypting one&amp;rsquo;s files to render it unreadable to the victims. This incentivizes victims to pay up, usually using cryptocurrencies such as Bitcoin.&lt;/p&gt;
-&lt;h3 id=&#34;team-blue-the-marshal-and-deputy&#34;&gt;Team Blue: The Marshal and Deputy&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;./marshal_badges.jpg&#34; alt=&#34;marshal_badge&#34;&gt;
-&lt;a href=&#34;https://www.google.com/search?tbs=simg:CAQSmAIJUgEqR_1jOuMQajAILELCMpwgaYgpgCAMSKJQX5wGBDIsMsgzwFsUM7xaVF5IXqzSFNfQ3rjTiJIIjqDaQJOMplSkaMFSG3g2HYBxTQAkiN7bp-IoFQ6LGQRvpqGIvSt6X4bSWrfibKNlpP3mBaSYhZruTNyAEDAsQjq7-CBoKCggIARIEnjKBEQwLEJ3twQkahAEKGQoGZW1ibGVt2qWI9gMLCgkvbS8wMXdrOWMKGAoFYmFkZ2XapYj2AwsKCS9tLzAzY255OQoYCgZjaXJjbGXapYj2AwoKCC9tLzAxdmtsChYKBHN0YXLapYj2AwoKCC9tLzA2bmdrChsKCWFpciBmb3JjZdqliPYDCgoIL20vMDEzbTEM&amp;amp;sxsrf=ALeKk00fnz1awR5UZ2suwA_GCs6tZoJE7g:1596539541828&amp;amp;q=old+west+marshall+badge&amp;amp;tbm=isch&amp;amp;sa=X&amp;amp;ved=2ahUKEwi_rYqitYHrAhVJI6wKHfwECEoQwg4oAHoECAkQKQ&amp;amp;biw=1694&amp;amp;bih=837&amp;amp;dpr=1.09#imgrc=fXAmoyg5R7o1UM&#34;&gt;&lt;em&gt;Image source&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;In the Wild West the marshal and deputy were there to protect the simple town folk from bandits and gangs. That is now the job of Anti-Malware.&lt;/p&gt;
-&lt;h3 id=&#34;overview-what-exactly-is-anti-malware&#34;&gt;Overview: What exactly is Anti-Malware?&lt;/h3&gt;
-&lt;p&gt;Anti-malware is software that protects the user from infrastructure destruction, financial ruin, loss of data or loss of consumer confidence, etc. through sophisticated malware techniques in detection, containment and prevention.&lt;/p&gt;
-&lt;p&gt;Anti-malware usually contains various techniques for malware protection and can provide different protection strategies and tools for different malware attacks such as anti-phishing or anti-ransomware protection.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./security_shield.jpg&#34; alt=&#34;virus_prtection&#34;&gt;
-&lt;a href=&#34;https://www.google.com/search?tbs=simg:CAQSwQIJO9IdVJ2RTcUatQILELCMpwgaYgpgCAMSKJACuAaOAo8CsAbyE58StAagEo0Csyi8IfY2liDjNuk2tzOYNO8m4DYaMGrwhYQhy6v2GYBmfdv5DZiu73eQH_1qEqzi2_1ySxu6hNA8fAALx9qxXIzHq_1ozGYDiAEDAsQjq7-CBoKCggIARIEP9PNCgwLEJ3twQkarQEKIAoNY29tcHV0ZXIgY2FzZdqliPYDCwoJL20vMDQ5ZDhiCiIKD3ZlbmRpbmcgbWFjaGluZdqliPYDCwoJL20vMDFuZnJyCiIKDm51bWVyaWMga2V5cGFk2qWI9gMMCgovbS8wMjV0M2p0ChgKBnNlcnZlctqliPYDCgoIL20vMGJreGoKJwoTbXVsdGltZWRpYSBzb2Z0d2FyZdqliPYDDAoKL20vMHc4OHh0aAw&amp;amp;sxsrf=ALeKk00CIY1Ste7Cy63UfHd_N3rle0_t9A:1596539622971&amp;amp;q=cloud+anti+virus&amp;amp;tbm=isch&amp;amp;sa=X&amp;amp;ved=2ahUKEwjv3-LItYHrAhVHVK0KHUzpDLAQwg4oAHoECAkQKQ&amp;amp;biw=1694&amp;amp;bih=837&amp;amp;dpr=1.09&#34;&gt;&lt;em&gt;Image source&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;malware-protection&#34;&gt;Malware Protection&lt;/h3&gt;
-&lt;p&gt;There are roughly four areas that comprise malware protection:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Recovery&lt;/li&gt;
-&lt;li&gt;Identification/Analysis&lt;/li&gt;
-&lt;li&gt;Containment&lt;/li&gt;
-&lt;li&gt;Eradication/Mitigation&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;In this article we are more interested in the identification part. Identification and forensics can be split up into two main parts: &lt;a href=&#34;https://en.wikipedia.org/wiki/Malware_analysis&#34;&gt;static malware analysis and dynamic malware analysis&lt;/a&gt;. There are many other forms of analysis such as memory and resource use forensics, web and network analysis and specific sandboxing techniques. However, that is beyond the scope of this blog post.&lt;/p&gt;
-&lt;h3 id=&#34;malware-analysis&#34;&gt;Malware Analysis&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;This is nowhere near a comprehensive list of Malware Analysis but more of an overview. There will be a reading list for those who are more interested in the nitty-gritty details.&lt;/em&gt;&lt;/p&gt;
-&lt;h4 id=&#34;static-malware-analysis&#34;&gt;Static Malware Analysis&lt;/h4&gt;
-&lt;p&gt;Static malware analysis is a way of examining code without executing it on your device. There are many techniques and tools, both paid and open-source that help carry out forensic investigation. The following tools and techniques are:&lt;/p&gt;
-&lt;h4 id=&#34;disassemble&#34;&gt;Disassemble&lt;/h4&gt;
-&lt;p&gt;Malware is sometimes reversed-engineered/dissembled using tools called disassemblers. &lt;em&gt;“A&lt;/em&gt; &lt;strong&gt;&lt;em&gt;disassembler&lt;/em&gt;&lt;/strong&gt; &lt;em&gt;is a&lt;/em&gt; &lt;a href=&#34;https://en.wikipedia.org/wiki/Computer_program&#34;&gt;&lt;em&gt;computer program&lt;/em&gt;&lt;/a&gt; &lt;em&gt;that&lt;/em&gt; &lt;a href=&#34;https://en.wikipedia.org/wiki/Translator_(computing)&#34;&gt;&lt;em&gt;translates&lt;/em&gt;&lt;/a&gt;  &lt;a href=&#34;https://en.wikipedia.org/wiki/Machine_language&#34;&gt;&lt;em&gt;machine language&lt;/em&gt;&lt;/a&gt; &lt;em&gt;into&lt;/em&gt; &lt;a href=&#34;https://en.wikipedia.org/wiki/Assembly_language&#34;&gt;&lt;em&gt;assembly language&lt;/em&gt;&lt;/a&gt;&lt;em&gt;” — wiki.&lt;/em&gt;
-Now for those of you who don’t speak tech-speak, this means AV is looking into the low-level program instructions to find out if the program will execute malicious code without executing it. Cool!&lt;/p&gt;
-&lt;h4 id=&#34;file-fingerprinting&#34;&gt;File Fingerprinting&lt;/h4&gt;
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;File fingerprinting&lt;/em&gt;&lt;/strong&gt; &lt;em&gt;is a unique bit string identifier for large data items&lt;/em&gt;. Just as a fingerprint can be used to identify the person a file fingerprint can identify the original file. AV software has a database of fingerprints of malware so that they can quickly identify the bad apples from the good ones.&lt;/p&gt;
-&lt;h4 id=&#34;packer-detection&#34;&gt;Packer Detection&lt;/h4&gt;
-&lt;p&gt;Hackers are not dumb so more often times than not they add a level of armor to their code called a packer. &lt;strong&gt;&lt;em&gt;Packers&lt;/em&gt;&lt;/strong&gt; &lt;em&gt;compress or encrypt executable files so that it&amp;rsquo;s harder to find out the true contents of a file&lt;/em&gt;. Lucky for us, AV also have a few tricks themselves to identify packers and retrieve their content.&lt;/p&gt;
-&lt;p&gt;They look at something called the &lt;a href=&#34;https://en.wikipedia.org/wiki/Portable_Executable&#34;&gt;portable executable&lt;/a&gt; (PE) header which contains information about the file format in Windows similar to ELF for Linux and Mach-O for MacOS.&lt;/p&gt;
-&lt;h4 id=&#34;dynamic-malware-analysis&#34;&gt;Dynamic Malware Analysis&lt;/h4&gt;
-&lt;p&gt;&lt;strong&gt;Virtualization/Sandboxing&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;In the aim to provide a safe space to analyze code, highly controlled environments called sandboxes are frequently used to test and run unverified programs which may contain malicious code.&lt;/p&gt;
-&lt;p&gt;Virtualization and/or sandboxing allows a host to determine what and how much resources a program can have or use at a given time. All without worrying of infecting the computer!&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Debugger&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Debuggers such as &lt;a href=&#34;https://en.wikipedia.org/wiki/GNU_Debugger&#34;&gt;GDB&lt;/a&gt; or &lt;a href=&#34;https://en.wikipedia.org/wiki/WinDbg&#34;&gt;WinDBG&lt;/a&gt; are programs that allow you to look at how programs behave during runtime as well as what effects it has on the host’s system. Debuggers give a wide variety of insights about how code is executed instruction by instruction.&lt;/p&gt;
-&lt;h3 id=&#34;elect-your-town-sheriff&#34;&gt;Elect Your Town Sheriff&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;./New_Sheriff_in_Town.jpg&#34; alt=&#34;town_sheriff&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.google.com/search?tbs=simg:CAQSnwIJ2yJsUXvW6G4akwILELCMpwgaYQpfCAMSJ-4IuwNg7wixA-YI6AjKCPMIwQP4PZk1-T3PN7cn4DSpNbkp9T38PRowcRkeEiQ7oK5sIRv_1v_1zkk9sjJkX--g_17_1BFHARu_1E1vQtj56TKP0vMOAZ1A_1ErXdIAQMCxCOrv4IGgoKCAgBEgRRmgYPDAsQne3BCRqMAQoWCgNlcmfapYj2AwsKCS9tLzBkNzlqcQoZCgZzYWhhcmHapYj2AwsKCS9tLzAxdzF2dAobCgh2YWNhdGlvbtqliPYDCwoJL20vMDJqd3FoCh8KDHNpbmdpbmcgc2FuZNqliPYDCwoJL20vMDE5NHY0ChkKB3BseXdvb2TapYj2AwoKCC9tLzBqaDh3DA&amp;amp;sxsrf=ALeKk034-B4ffrL1T814yJm67B1W__pA0Q:1596539712877&amp;amp;q=sheriff+callie%27s+wild+west+toby+gets+the+scoop&amp;amp;tbm=isch&amp;amp;sa=X&amp;amp;ved=2ahUKEwijsdLztYHrAhUCYKwKHWjACHcQwg4oAHoECAkQKQ&amp;amp;biw=1694&amp;amp;bih=837&amp;amp;dpr=1.09&#34;&gt;&lt;em&gt;Image source&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Now that you know about the good guys and the bad guys, how are you going to protect yourself? I recommend anyone to take a look at &lt;a href=&#34;https://medium.com/s/the-firewall/episode5-antimalware-software-b255b627c879&#34;&gt;What is Malware? And How to Protect Yourself Against It&lt;/a&gt;; it will give you a brief review on possible good anti-malware software.&lt;/p&gt;
-&lt;h3 id=&#34;in-summary&#34;&gt;In Summary&lt;/h3&gt;
-&lt;p&gt;We covered four main areas in this article; we covered an overview of malware and its major forms; we went in depth on several major types of malware. We also talked about the what anti-malware does and its main objective. Lastly, we gave a general malware analysis overview usually done by anti-software.&lt;/p&gt;
-&lt;p&gt;I hope you enjoyed this brief overview of anti-malware!&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>End-to-End Encryption (E2EE) Explained</title>
-      <link>https://examplesite.org/post/end-2-end-encryption/</link>
-      <pubDate>Sat, 25 Apr 2020 00:00:00 -0700</pubDate>
-      
-      <guid>https://examplesite.org/post/end-2-end-encryption/</guid>
-      <description>&lt;p&gt;In mid-February 2020, WhatsApp announced on its blog that the messaging app is now being actively used by more than 2 billion people worldwide. Multiply that by the number of messages being sent by each user – that&amp;rsquo;s a lot of texts, photos, videos, voice messages, documents, status updates, and calls being sent through the public web each day!&lt;/p&gt;
-&lt;p&gt;Imagine your data getting into the wrong hands for everyone to see with no privacy or security. What kind of harm could that cause? Fortunately, there is &lt;a href=&#34;https://ssd.eff.org/en/module/deep-dive-end-end-encryption-how-do-public-key-encryption-systems-work&#34;&gt;end-to-end encryption (E2EE)&lt;/a&gt; — “a public key encryption system that ensures the contents of your messages, text, and even files from being understood by anyone except their intended recipients”&lt;/p&gt;
-&lt;p&gt;Until recently, end-to-end encryption provided necessary security to prevent your information from being read in transit — that is, not hackers, not the government, and not even the company that facilitates your communication could read your messages. Disconcertingly, this is under threat under the &lt;a href=&#34;https://www.wired.com/story/earn-it-act-sneak-attack-on-encryption/&#34;&gt;EARN IT legislation bill&lt;/a&gt; which aims to uproot encryption systems.&lt;/p&gt;
-&lt;p&gt;In this article, I will dive into how E2EE works and why it is important that we keep it. Before we begin going over end-to-end encryption, let’s take some time going over the basics of encryption.&lt;/p&gt;
-&lt;h3 id=&#34;passing-a-secret-message&#34;&gt;Passing a secret message&lt;/h3&gt;
-&lt;p&gt;Let’s say you are in a classroom and want to send a secret message to your friend Bob, but you need to pass it through your friends beforehand. In this example, you and the intermediaries are called network nodes which are either a redistribution point or a communication endpoint.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./image_1_end.png&#34; alt=&#34;secret message&#34;&gt;
-&lt;em&gt;Image source: &lt;a href=&#34;https://ssd.eff.org/en/module/deep-dive-end-end-encryption-how-do-public-key-encryption-systems-work&#34;&gt;ssd.eff.org&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;As you might have guessed, you are very concerned that your friends may take a peek at your secret message. So, you encrypt the message using the classic &lt;a href=&#34;https://en.wikipedia.org/wiki/Caesar_cipher&#34;&gt;Caesar/shift cipher&lt;/a&gt; — “a cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet.” For this example, you and Bob have chosen 3 to be your key.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./image_2_end.png&#34; alt=&#34;caesar shift cipher&#34;&gt;
-&lt;em&gt;Image source: &lt;a href=&#34;https://ssd.eff.org/en/module/deep-dive-end-end-encryption-how-do-public-key-encryption-systems-work&#34;&gt;ssd.eff.org&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;When there is one key to encrypt and decrypt data, it is called symmetric cryptographic encryption; it is the oldest form of encryption, dating back thousands of years.&lt;/p&gt;
-&lt;h3 id=&#34;the-one-key-system&#34;&gt;The One Key System&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;./image_3_end.png&#34; alt=&#34;&#34;&gt;
-&lt;em&gt;Image source: &lt;a href=&#34;https://medium.com/hackernoon/symmetric-and-asymmetric-encryption-5122f9ec65b1&#34;&gt;Hackernoon&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Nowadays, two types of Symmetric-key encryption algorithms exist – &lt;em&gt;block ciphers&lt;/em&gt; or &lt;em&gt;stream ciphers&lt;/em&gt;. The fundamental difference between them is their effective data-size operations. Stream ciphers usually operate on individual bytes of data; whereas block ciphers operate of fixed-lengths (i.e. blocks of data).&lt;/p&gt;
-&lt;p&gt;Examples of modern Symmetric key encryption algorithms &lt;a href=&#34;https://www.cheapsslshop.com/blog/symmetric-vs-asymmetric-encryption-whats-the-difference/&#34;&gt;mentioned by cheapsslshop&lt;/a&gt; include block ciphers such as Blowfish, AES, DES, Camellia, and Serpent, or stream ciphers such as FISH, RC4, QUAD, Py, and SNOW.&lt;/p&gt;
-&lt;p&gt;There is a significant drawback to using symmetric-key encryption; both you and Bob need to decide on a key beforehand to communicate. This presents a challenge. How can you and Bob communicate securely and privately without letting your friends or anyone else for that matter know your key, especially when direct communication isn’t possible?&lt;/p&gt;
-&lt;h3 id=&#34;the-two-key-system&#34;&gt;The Two Key System&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;./image_4_end.png&#34; alt=&#34;&#34;&gt;
-&lt;em&gt;Image source: &lt;a href=&#34;https://medium.com/hackernoon/symmetric-and-asymmetric-encryption-5122f9ec65b1&#34;&gt;Hackernoon&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Public-key cryptography (also known as asymmetric cryptography) resolves the inherent problem of symmetric encryption. Cryptographic algorithms based on mathematical formulas create one-way functions that generate two keys — a public key for encryption and a private key for decryption. The public keys are distributed freely however only the intended recipient holds the private key.&lt;/p&gt;
-&lt;p&gt;In practice, almost all forms of network communication and data storage use public-key cryptography to a certain extent to guarantee authenticity and non-repudiability. Although asymmetric encryption is a relatively new area (when compared to symmetric encryption), it has created a platitude of internet standards including Transport Layer Security (TLS), S/MIME, PGP, and GPG.&lt;/p&gt;
-&lt;p&gt;Some of the modern Asymmetric key encryption algorithms &lt;a href=&#34;https://www.cheapsslshop.com/blog/symmetric-vs-asymmetric-encryption-whats-the-difference/&#34;&gt;mentioned by cheapsslshop&lt;/a&gt; include RSA, WELGamal, PGP, Elliptic curve techniques, SSH, and many others.&lt;/p&gt;
-&lt;p&gt;Now, you and Bob don’t know much about public-key cryptography; however you and Bob are determined to share a secret key through your friends during art class. You and Bob devise a plan to use paint.&lt;/p&gt;
-&lt;h3 id=&#34;general-overview-of-diffie-hellman-key-exchange-otr-with-paint&#34;&gt;General overview of Diffie-Hellman key exchange (OTR) with paint&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;./image_5_end.png&#34; alt=&#34;diffie-hellman key exchange with paint&#34;&gt;
-&lt;!-- raw HTML omitted --&gt;&lt;em&gt;Image source:
-&lt;a href=&#34;https://www.uni-due.de/imperia/md/images/dc/crypto_chapter_5_public_key.pdf&#34;&gt;Introduction to public key cryptography&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Diffie-Hellman key exchange allows two parties to create a shared secret that can be used for secret communication over an insecure network. The illustration above uses colors as an analogy to explain the concept of key exchange.&lt;/p&gt;
-&lt;p&gt;The procedure begins by having both parties agree on some random starting color that does not need to be secret. In the illustration, both Alice and Bob have chosen yellow. Afterward, Bob and Alice choose individually a secret color that is not shared. In this example, it is red and teal.&lt;/p&gt;
-&lt;p&gt;Now, for the most important part — Alice and Bob have to mix their own secret color together with their mutually shared color. This results in orange-tan (Alice) and light-blue (Bob) pigments that are shared through a public network.&lt;/p&gt;
-&lt;p&gt;Lastly, the two-color mixtures are then mixed with their own secret color. The final resulting color should be the exact same for both parties (yellow-brownish).&lt;/p&gt;
-&lt;p&gt;The beauty behind this secret exchange is that it prevents third parties from listening in and acquiring the common secret color even if they knew the common color (yellow) and the first mixed colors (orange-tan and light-blue). In reality, numbers are used in place of colors; however the  &lt;a href=&#34;https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange&#34;&gt;Diffie-Hellman method&lt;/a&gt; is determined to be computationally expensive to “crack”. “It is impossible to compute in a practical amount of time even for modern supercomputers.”&lt;/p&gt;
-&lt;p&gt;The common key can now be used to create key-pairs for PGP (Pretty Good Privacy) encrypted messages.&lt;/p&gt;
-&lt;p&gt;Diffie–Hellman has become the preferred key exchange algorithm for TLS (i.e. HTTPS) due its Forward Secrecy attributes, meaning that obtaining eventual access to the communicating systems does not enable an interested party to decrypt a previously recorded conversation. The previously popular key-exchange algorithm (RSA) does not support Forward Secrecy, and obtaining the RSA private keys from the communicating systems does allow previously recorded conversations to be decrypted.&lt;/p&gt;
-&lt;h3 id=&#34;in-review&#34;&gt;In Review&lt;/h3&gt;
-&lt;p&gt;We went over symmetric encryption that used one key encryption technique to both encrypt data and decrypt data. The major flaw in symmetric encryption was its inability to establish unique keys over an insecure network.&lt;/p&gt;
-&lt;p&gt;We also reviewed asymmetric encryption which solved the problem by using a public key for encryption and a private key for decryption. I explained how Diffie-Hellman is a possible algorithm to establish a shared secret between two parties, which in turn can be used for both symmetric or asymmetric encryption.&lt;/p&gt;
-&lt;p&gt;In the end, E2EE is a vital system of communication that provides the necessary security for our devices over the expansive internet. It helps us make sure that our private information stays private.&lt;/p&gt;
-&lt;p&gt;WAIT … I forgot the most important part. How can we build it? Here you go!&lt;/p&gt;
-&lt;h3 id=&#34;now-lets-build-our-keys-with-pgp&#34;&gt;Now let’s build our keys with PGP&lt;/h3&gt;
-&lt;p&gt;While modern version of Diffie-Hellman key exchange is not used in the (PGP) &lt;a href=&#34;https://en.wikipedia.org/wiki/Pretty_Good_Privacy&#34;&gt;Pretty Good Privacy&lt;/a&gt;, it still creates complex key-pairs using another algorithm call RSA. In this short guide, I will show you how to generate PGP key with GNU/Linux.&lt;/p&gt;
-&lt;p&gt;PGP is a popular encryption standard to establish end-to-end encryption. The GNU Privacy Guard is a free software that is part of the OpenPGP standard. In short, public keys can be generated and exchanged using this tool.&lt;/p&gt;
-&lt;h4 id=&#34;step-1&#34;&gt;Step 1&lt;/h4&gt;
-&lt;p&gt;First update your packages. Then install and configuring GnuPG on your Ubuntu 18.04 machine.&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ sudo apt update &amp;amp;&amp;amp; sudo apt upgrade
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Earl's Website</title><link>https://examplesite.org/authors/admin/</link><description>Recent content on Earl's Website</description><generator>Source Themes academia (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 03 Aug 2020 00:00:00 -0700</lastBuildDate><atom:link href="https://examplesite.org/authors/admin/index.xml" rel="self" type="application/rss+xml"/><item><title>What is Anti-Malware?</title><link>https://examplesite.org/post/anti-software/</link><pubDate>Mon, 03 Aug 2020 00:00:00 -0700</pubDate><guid>https://examplesite.org/post/anti-software/</guid><description>&lt;p>In May 2017 the world was devastated by a worldwide cyber attack that affected more than 200,000 computers across 150 countries. Users and companies alike were infected by the rapidly spreading computer virus that attacked critical agency providers like the &lt;a href="https://en.wikipedia.org/wiki/National_Health_Service">National Health Service&lt;/a>. According to &lt;a href="https://www.cbsnews.com/news/wannacry-ransomware-attacks-wannacry-virus-losses/">Cyber risk modeling firm Cyence&lt;/a>, the hack caused hundreds of millions of dollars in damages that could have been avoided with proper software security updates and vulnerability transparency by governmental agencies like the NSA. Many still remember the historic cyber attack as the infamous WannaCry attack.&lt;/p>
+&lt;h3 id="surviving-the-tech-wild-west">Surviving the tech Wild West&lt;/h3>
+&lt;p>&lt;img src="./flat-wild-west-background-with-colorful-buildings_23-2147587719.jpg" alt="Wild_west">
+&lt;a href="https://www.freepik.com/free-vector/flat-wild-west-background-with-colorful-buildings_1008160.htm">&lt;em>Image source&lt;/em>&lt;/a>&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;p>With cyber attacks posing real threats to peoples’ livelihoods, it’s not hard to see why protecting yourself from such attacks can be vitally important to governments, businesses and individuals.&lt;/p>
+&lt;h3 id="it-starts-with-you">It Starts With You&lt;/h3>
+&lt;p>The first line of defense often starts with you, the user, to be situationally aware of your actions on the world wide web. That entails sifting through &lt;a href="https://www.malwarebytes.com/phishing/">phishing&lt;/a> scams and suspicious websites, links or attachments. More often than not, good internet common sense can save you a lot of trouble; an ounce of &lt;strong>prevention&lt;/strong> is worth a pound of a &lt;strong>cure.&lt;/strong>&lt;/p>
+&lt;h3 id="call-in-the-calvary">Call In The Calvary&lt;/h3>
+&lt;p>In addition to common good internet practices, the second best thing to invest in is anti-malware/antivirus software. Anti-malware’s main objective is to stop any malicious threats from infecting your computer; those include a platitude of threats ranging from computer viruses to internet worms.&lt;/p>
+&lt;p>Not having antivirus (AV) technology can lead to malware breaches. Currently, malware breaches of all sizes are costing industries $350 billion a year! That is why cyber-breaches incentivize companies and governments to heavily invest in cyber-security.&lt;/p>
+&lt;p>Anti-malware software is thus an incredibly useful tool to help identify and eliminate many malware threats.&lt;/p>
+&lt;p>In this article, I will go over the reason why anti-malware is important and what types of malware are out there. Furthermore, I will go over in-depth the certain techniques used to do malware analysis and investigations. Lastly, there will a reading list to give you a review of some great anti-malware software out there.&lt;/p>
+&lt;h3 id="team-red-malicious-rogue-bandits">Team Red: Malicious Rogue Bandits&lt;/h3>
+&lt;p>&lt;img src="./rogue-bandits.jpg" alt="Bandits and Roguges">
+&lt;a href="https://www.vectorstock.com/royalty-free-vector/vintage-wild-west-bandit-poster-vector-15386994">&lt;em>Image source&lt;/em>&lt;/a>&lt;/p>
+&lt;p>What bandits and gangs were to the Wild West, hackers and scammers are in the 21st century. Only difference — they use malware instead of guns to attack and exfiltrate personal data.&lt;/p>
+&lt;h3 id="overview-what-exactly-is-malware">Overview: What exactly is Malware?&lt;/h3>
+&lt;p>According to &lt;a href="https://blog.malwarebytes.com/glossary/malware/">Malwarebytes Labs&lt;/a>, &lt;em>Malware, or “malicious software,” is an umbrella term that refers to any malicious program or code that is harmful to systems.&lt;/em>&lt;/p>
+&lt;p>Malware is usually intentionally designed to either destroy data, install additional programs or exfiltrate (steal) data. For instance, malware can break computer systems or even be part of a larger agenda in the case of WannaCry. In summary, malware compromises the confidentiality, integrity, and availability (CIA for short) of a victim’s data.&lt;/p>
+&lt;p>It is important to understand why malware is a huge concern. Companies large and small are constant targets for malware attacks.&lt;/p>
+&lt;p>Furthermore, individuals who aren’t likely end-targets can still become potentially impacted as an intermediary; that is, they can be used, for example, as bots in a much larger botnet to enact major attacks like DDoS(distributed denial of service) attacks, etc. These attacks typically result in loss of data, intellectual property, competitive advantage, and loss of overall consumer confidence.&lt;/p>
+&lt;h3 id="malware-arsenal">Malware Arsenal&lt;/h3>
+&lt;p>&lt;img src="./bandit_arsenal.jpg" alt="bandit_arsenal">
+&lt;a href="https://www.bigstockphoto.com/image-271869916/stock-vector-colored-vector-illustrations-of-wild-west-weapons-and-items-isolated-on-white?utm_medium=Affiliate&amp;amp;utm_campaign=TinEye&amp;amp;utm_source=77643&amp;amp;utm_term=">&lt;em>Image source&lt;/em>&lt;/a>&lt;/p>
+&lt;p>Now, let’s look at some of the major forms of malware.&lt;/p>
+&lt;h3 id="viruses">Viruses&lt;/h3>
+&lt;p>Computer viruses can run on any operating system, be it Windows or Mac. Computer viruses are actually, contrary to common belief, a type of malware. Viruses are defined as follows:&lt;/p>
+&lt;ol>
+&lt;li>A computer virus requires a host program.&lt;/li>
+&lt;li>A computer virus requires user action to transmit from one system to another.&lt;/li>
+&lt;li>A computer virus attaches bits of its own malicious code to other files or replaces files outright with copies of itself.&lt;/li>
+&lt;/ol>
+&lt;h3 id="worms">Worms&lt;/h3>
+&lt;p>In contrast to computer viruses, worms are capable of spreading and executing itself from one system to another without user interaction. Afterward, worms can do various malicious tasks such as dropping a payload, affecting the file system and consuming computer resources.&lt;/p>
+&lt;p>There are two main types of worms: Network Service Worms, Mass Mailing Worms.&lt;/p>
+&lt;h3 id="trojan-horse-programs">Trojan Horse Programs&lt;/h3>
+&lt;p>Next, we have the Trojan horse programs. According to Greek mythology, the Greeks built a wooden horse to subterfuge the city of Troy. Much like the Greek Trojan, the computer Trojan horse aims to infect your computer using deception by tricking users into running seemingly benign computer programs.&lt;/p>
+&lt;h3 id="ransomware">Ransomware&lt;/h3>
+&lt;p>Finally we have ransomware. Ransomware &amp;ldquo;&lt;em>is malicious software that blocks access to the victim’s data until a ransom is paid&lt;/em>.” — &lt;a href="https://medium.com/@TheTechTutor?source=post_elevate_sequence_page-----b255b627c879----------------------">David Koff&lt;/a>. It usually involves encrypting one&amp;rsquo;s files to render it unreadable to the victims. This incentivizes victims to pay up, usually using cryptocurrencies such as Bitcoin.&lt;/p>
+&lt;h3 id="team-blue-the-marshal-and-deputy">Team Blue: The Marshal and Deputy&lt;/h3>
+&lt;p>&lt;img src="./marshal_badges.jpg" alt="marshal_badge">
+&lt;a href="https://www.google.com/search?tbs=simg:CAQSmAIJUgEqR_1jOuMQajAILELCMpwgaYgpgCAMSKJQX5wGBDIsMsgzwFsUM7xaVF5IXqzSFNfQ3rjTiJIIjqDaQJOMplSkaMFSG3g2HYBxTQAkiN7bp-IoFQ6LGQRvpqGIvSt6X4bSWrfibKNlpP3mBaSYhZruTNyAEDAsQjq7-CBoKCggIARIEnjKBEQwLEJ3twQkahAEKGQoGZW1ibGVt2qWI9gMLCgkvbS8wMXdrOWMKGAoFYmFkZ2XapYj2AwsKCS9tLzAzY255OQoYCgZjaXJjbGXapYj2AwoKCC9tLzAxdmtsChYKBHN0YXLapYj2AwoKCC9tLzA2bmdrChsKCWFpciBmb3JjZdqliPYDCgoIL20vMDEzbTEM&amp;amp;sxsrf=ALeKk00fnz1awR5UZ2suwA_GCs6tZoJE7g:1596539541828&amp;amp;q=old+west+marshall+badge&amp;amp;tbm=isch&amp;amp;sa=X&amp;amp;ved=2ahUKEwi_rYqitYHrAhVJI6wKHfwECEoQwg4oAHoECAkQKQ&amp;amp;biw=1694&amp;amp;bih=837&amp;amp;dpr=1.09#imgrc=fXAmoyg5R7o1UM">&lt;em>Image source&lt;/em>&lt;/a>&lt;/p>
+&lt;p>In the Wild West the marshal and deputy were there to protect the simple town folk from bandits and gangs. That is now the job of Anti-Malware.&lt;/p>
+&lt;h3 id="overview-what-exactly-is-anti-malware">Overview: What exactly is Anti-Malware?&lt;/h3>
+&lt;p>Anti-malware is software that protects the user from infrastructure destruction, financial ruin, loss of data or loss of consumer confidence, etc. through sophisticated malware techniques in detection, containment and prevention.&lt;/p>
+&lt;p>Anti-malware usually contains various techniques for malware protection and can provide different protection strategies and tools for different malware attacks such as anti-phishing or anti-ransomware protection.&lt;/p>
+&lt;p>&lt;img src="./security_shield.jpg" alt="virus_prtection">
+&lt;a href="https://www.google.com/search?tbs=simg:CAQSwQIJO9IdVJ2RTcUatQILELCMpwgaYgpgCAMSKJACuAaOAo8CsAbyE58StAagEo0Csyi8IfY2liDjNuk2tzOYNO8m4DYaMGrwhYQhy6v2GYBmfdv5DZiu73eQH_1qEqzi2_1ySxu6hNA8fAALx9qxXIzHq_1ozGYDiAEDAsQjq7-CBoKCggIARIEP9PNCgwLEJ3twQkarQEKIAoNY29tcHV0ZXIgY2FzZdqliPYDCwoJL20vMDQ5ZDhiCiIKD3ZlbmRpbmcgbWFjaGluZdqliPYDCwoJL20vMDFuZnJyCiIKDm51bWVyaWMga2V5cGFk2qWI9gMMCgovbS8wMjV0M2p0ChgKBnNlcnZlctqliPYDCgoIL20vMGJreGoKJwoTbXVsdGltZWRpYSBzb2Z0d2FyZdqliPYDDAoKL20vMHc4OHh0aAw&amp;amp;sxsrf=ALeKk00CIY1Ste7Cy63UfHd_N3rle0_t9A:1596539622971&amp;amp;q=cloud+anti+virus&amp;amp;tbm=isch&amp;amp;sa=X&amp;amp;ved=2ahUKEwjv3-LItYHrAhVHVK0KHUzpDLAQwg4oAHoECAkQKQ&amp;amp;biw=1694&amp;amp;bih=837&amp;amp;dpr=1.09">&lt;em>Image source&lt;/em>&lt;/a>&lt;/p>
+&lt;h3 id="malware-protection">Malware Protection&lt;/h3>
+&lt;p>There are roughly four areas that comprise malware protection:&lt;/p>
+&lt;ul>
+&lt;li>Recovery&lt;/li>
+&lt;li>Identification/Analysis&lt;/li>
+&lt;li>Containment&lt;/li>
+&lt;li>Eradication/Mitigation&lt;/li>
+&lt;/ul>
+&lt;p>In this article we are more interested in the identification part. Identification and forensics can be split up into two main parts: &lt;a href="https://en.wikipedia.org/wiki/Malware_analysis">static malware analysis and dynamic malware analysis&lt;/a>. There are many other forms of analysis such as memory and resource use forensics, web and network analysis and specific sandboxing techniques. However, that is beyond the scope of this blog post.&lt;/p>
+&lt;h3 id="malware-analysis">Malware Analysis&lt;/h3>
+&lt;p>&lt;em>This is nowhere near a comprehensive list of Malware Analysis but more of an overview. There will be a reading list for those who are more interested in the nitty-gritty details.&lt;/em>&lt;/p>
+&lt;h4 id="static-malware-analysis">Static Malware Analysis&lt;/h4>
+&lt;p>Static malware analysis is a way of examining code without executing it on your device. There are many techniques and tools, both paid and open-source that help carry out forensic investigation. The following tools and techniques are:&lt;/p>
+&lt;h4 id="disassemble">Disassemble&lt;/h4>
+&lt;p>Malware is sometimes reversed-engineered/dissembled using tools called disassemblers. &lt;em>“A&lt;/em> &lt;strong>&lt;em>disassembler&lt;/em>&lt;/strong> &lt;em>is a&lt;/em> &lt;a href="https://en.wikipedia.org/wiki/Computer_program">&lt;em>computer program&lt;/em>&lt;/a> &lt;em>that&lt;/em> &lt;a href="https://en.wikipedia.org/wiki/Translator_(computing)">&lt;em>translates&lt;/em>&lt;/a> &lt;a href="https://en.wikipedia.org/wiki/Machine_language">&lt;em>machine language&lt;/em>&lt;/a> &lt;em>into&lt;/em> &lt;a href="https://en.wikipedia.org/wiki/Assembly_language">&lt;em>assembly language&lt;/em>&lt;/a>&lt;em>” — wiki.&lt;/em>
+Now for those of you who don’t speak tech-speak, this means AV is looking into the low-level program instructions to find out if the program will execute malicious code without executing it. Cool!&lt;/p>
+&lt;h4 id="file-fingerprinting">File Fingerprinting&lt;/h4>
+&lt;p>&lt;strong>&lt;em>File fingerprinting&lt;/em>&lt;/strong> &lt;em>is a unique bit string identifier for large data items&lt;/em>. Just as a fingerprint can be used to identify the person a file fingerprint can identify the original file. AV software has a database of fingerprints of malware so that they can quickly identify the bad apples from the good ones.&lt;/p>
+&lt;h4 id="packer-detection">Packer Detection&lt;/h4>
+&lt;p>Hackers are not dumb so more often times than not they add a level of armor to their code called a packer. &lt;strong>&lt;em>Packers&lt;/em>&lt;/strong> &lt;em>compress or encrypt executable files so that it&amp;rsquo;s harder to find out the true contents of a file&lt;/em>. Lucky for us, AV also have a few tricks themselves to identify packers and retrieve their content.&lt;/p>
+&lt;p>They look at something called the &lt;a href="https://en.wikipedia.org/wiki/Portable_Executable">portable executable&lt;/a> (PE) header which contains information about the file format in Windows similar to ELF for Linux and Mach-O for MacOS.&lt;/p>
+&lt;h4 id="dynamic-malware-analysis">Dynamic Malware Analysis&lt;/h4>
+&lt;p>&lt;strong>Virtualization/Sandboxing&lt;/strong>&lt;/p>
+&lt;p>In the aim to provide a safe space to analyze code, highly controlled environments called sandboxes are frequently used to test and run unverified programs which may contain malicious code.&lt;/p>
+&lt;p>Virtualization and/or sandboxing allows a host to determine what and how much resources a program can have or use at a given time. All without worrying of infecting the computer!&lt;/p>
+&lt;p>&lt;strong>Debugger&lt;/strong>&lt;/p>
+&lt;p>Debuggers such as &lt;a href="https://en.wikipedia.org/wiki/GNU_Debugger">GDB&lt;/a> or &lt;a href="https://en.wikipedia.org/wiki/WinDbg">WinDBG&lt;/a> are programs that allow you to look at how programs behave during runtime as well as what effects it has on the host’s system. Debuggers give a wide variety of insights about how code is executed instruction by instruction.&lt;/p>
+&lt;h3 id="elect-your-town-sheriff">Elect Your Town Sheriff&lt;/h3>
+&lt;p>&lt;img src="./New_Sheriff_in_Town.jpg" alt="town_sheriff">&lt;/p>
+&lt;p>&lt;a href="https://www.google.com/search?tbs=simg:CAQSnwIJ2yJsUXvW6G4akwILELCMpwgaYQpfCAMSJ-4IuwNg7wixA-YI6AjKCPMIwQP4PZk1-T3PN7cn4DSpNbkp9T38PRowcRkeEiQ7oK5sIRv_1v_1zkk9sjJkX--g_17_1BFHARu_1E1vQtj56TKP0vMOAZ1A_1ErXdIAQMCxCOrv4IGgoKCAgBEgRRmgYPDAsQne3BCRqMAQoWCgNlcmfapYj2AwsKCS9tLzBkNzlqcQoZCgZzYWhhcmHapYj2AwsKCS9tLzAxdzF2dAobCgh2YWNhdGlvbtqliPYDCwoJL20vMDJqd3FoCh8KDHNpbmdpbmcgc2FuZNqliPYDCwoJL20vMDE5NHY0ChkKB3BseXdvb2TapYj2AwoKCC9tLzBqaDh3DA&amp;amp;sxsrf=ALeKk034-B4ffrL1T814yJm67B1W__pA0Q:1596539712877&amp;amp;q=sheriff+callie%27s+wild+west+toby+gets+the+scoop&amp;amp;tbm=isch&amp;amp;sa=X&amp;amp;ved=2ahUKEwijsdLztYHrAhUCYKwKHWjACHcQwg4oAHoECAkQKQ&amp;amp;biw=1694&amp;amp;bih=837&amp;amp;dpr=1.09">&lt;em>Image source&lt;/em>&lt;/a>&lt;/p>
+&lt;p>Now that you know about the good guys and the bad guys, how are you going to protect yourself? I recommend anyone to take a look at &lt;a href="https://medium.com/s/the-firewall/episode5-antimalware-software-b255b627c879">What is Malware? And How to Protect Yourself Against It&lt;/a>; it will give you a brief review on possible good anti-malware software.&lt;/p>
+&lt;h3 id="in-summary">In Summary&lt;/h3>
+&lt;p>We covered four main areas in this article; we covered an overview of malware and its major forms; we went in depth on several major types of malware. We also talked about the what anti-malware does and its main objective. Lastly, we gave a general malware analysis overview usually done by anti-software.&lt;/p>
+&lt;p>I hope you enjoyed this brief overview of anti-malware!&lt;/p></description></item><item><title>End-to-End Encryption (E2EE) Explained</title><link>https://examplesite.org/post/end-2-end-encryption/</link><pubDate>Sat, 25 Apr 2020 00:00:00 -0700</pubDate><guid>https://examplesite.org/post/end-2-end-encryption/</guid><description>&lt;p>In mid-February 2020, WhatsApp announced on its blog that the messaging app is now being actively used by more than 2 billion people worldwide. Multiply that by the number of messages being sent by each user – that&amp;rsquo;s a lot of texts, photos, videos, voice messages, documents, status updates, and calls being sent through the public web each day!&lt;/p>
+&lt;p>Imagine your data getting into the wrong hands for everyone to see with no privacy or security. What kind of harm could that cause? Fortunately, there is &lt;a href="https://ssd.eff.org/en/module/deep-dive-end-end-encryption-how-do-public-key-encryption-systems-work">end-to-end encryption (E2EE)&lt;/a> — “a public key encryption system that ensures the contents of your messages, text, and even files from being understood by anyone except their intended recipients”&lt;/p>
+&lt;p>Until recently, end-to-end encryption provided necessary security to prevent your information from being read in transit — that is, not hackers, not the government, and not even the company that facilitates your communication could read your messages. Disconcertingly, this is under threat under the &lt;a href="https://www.wired.com/story/earn-it-act-sneak-attack-on-encryption/">EARN IT legislation bill&lt;/a> which aims to uproot encryption systems.&lt;/p>
+&lt;p>In this article, I will dive into how E2EE works and why it is important that we keep it. Before we begin going over end-to-end encryption, let’s take some time going over the basics of encryption.&lt;/p>
+&lt;h3 id="passing-a-secret-message">Passing a secret message&lt;/h3>
+&lt;p>Let’s say you are in a classroom and want to send a secret message to your friend Bob, but you need to pass it through your friends beforehand. In this example, you and the intermediaries are called network nodes which are either a redistribution point or a communication endpoint.&lt;/p>
+&lt;p>&lt;img src="./image_1_end.png" alt="secret message">
+&lt;em>Image source: &lt;a href="https://ssd.eff.org/en/module/deep-dive-end-end-encryption-how-do-public-key-encryption-systems-work">ssd.eff.org&lt;/a>&lt;/em>&lt;/p>
+&lt;p>As you might have guessed, you are very concerned that your friends may take a peek at your secret message. So, you encrypt the message using the classic &lt;a href="https://en.wikipedia.org/wiki/Caesar_cipher">Caesar/shift cipher&lt;/a> — “a cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet.” For this example, you and Bob have chosen 3 to be your key.&lt;/p>
+&lt;p>&lt;img src="./image_2_end.png" alt="caesar shift cipher">
+&lt;em>Image source: &lt;a href="https://ssd.eff.org/en/module/deep-dive-end-end-encryption-how-do-public-key-encryption-systems-work">ssd.eff.org&lt;/a>&lt;/em>&lt;/p>
+&lt;p>When there is one key to encrypt and decrypt data, it is called symmetric cryptographic encryption; it is the oldest form of encryption, dating back thousands of years.&lt;/p>
+&lt;h3 id="the-one-key-system">The One Key System&lt;/h3>
+&lt;p>&lt;img src="./image_3_end.png" alt="">
+&lt;em>Image source: &lt;a href="https://medium.com/hackernoon/symmetric-and-asymmetric-encryption-5122f9ec65b1">Hackernoon&lt;/a>&lt;/em>&lt;/p>
+&lt;p>Nowadays, two types of Symmetric-key encryption algorithms exist – &lt;em>block ciphers&lt;/em> or &lt;em>stream ciphers&lt;/em>. The fundamental difference between them is their effective data-size operations. Stream ciphers usually operate on individual bytes of data; whereas block ciphers operate of fixed-lengths (i.e. blocks of data).&lt;/p>
+&lt;p>Examples of modern Symmetric key encryption algorithms &lt;a href="https://www.cheapsslshop.com/blog/symmetric-vs-asymmetric-encryption-whats-the-difference/">mentioned by cheapsslshop&lt;/a> include block ciphers such as Blowfish, AES, DES, Camellia, and Serpent, or stream ciphers such as FISH, RC4, QUAD, Py, and SNOW.&lt;/p>
+&lt;p>There is a significant drawback to using symmetric-key encryption; both you and Bob need to decide on a key beforehand to communicate. This presents a challenge. How can you and Bob communicate securely and privately without letting your friends or anyone else for that matter know your key, especially when direct communication isn’t possible?&lt;/p>
+&lt;h3 id="the-two-key-system">The Two Key System&lt;/h3>
+&lt;p>&lt;img src="./image_4_end.png" alt="">
+&lt;em>Image source: &lt;a href="https://medium.com/hackernoon/symmetric-and-asymmetric-encryption-5122f9ec65b1">Hackernoon&lt;/a>&lt;/em>&lt;/p>
+&lt;p>Public-key cryptography (also known as asymmetric cryptography) resolves the inherent problem of symmetric encryption. Cryptographic algorithms based on mathematical formulas create one-way functions that generate two keys — a public key for encryption and a private key for decryption. The public keys are distributed freely however only the intended recipient holds the private key.&lt;/p>
+&lt;p>In practice, almost all forms of network communication and data storage use public-key cryptography to a certain extent to guarantee authenticity and non-repudiability. Although asymmetric encryption is a relatively new area (when compared to symmetric encryption), it has created a platitude of internet standards including Transport Layer Security (TLS), S/MIME, PGP, and GPG.&lt;/p>
+&lt;p>Some of the modern Asymmetric key encryption algorithms &lt;a href="https://www.cheapsslshop.com/blog/symmetric-vs-asymmetric-encryption-whats-the-difference/">mentioned by cheapsslshop&lt;/a> include RSA, WELGamal, PGP, Elliptic curve techniques, SSH, and many others.&lt;/p>
+&lt;p>Now, you and Bob don’t know much about public-key cryptography; however you and Bob are determined to share a secret key through your friends during art class. You and Bob devise a plan to use paint.&lt;/p>
+&lt;h3 id="general-overview-of-diffie-hellman-key-exchange-otr-with-paint">General overview of Diffie-Hellman key exchange (OTR) with paint&lt;/h3>
+&lt;p>&lt;img src="./image_5_end.png" alt="diffie-hellman key exchange with paint">
+&lt;!-- raw HTML omitted -->&lt;em>Image source:
+&lt;a href="https://www.uni-due.de/imperia/md/images/dc/crypto_chapter_5_public_key.pdf">Introduction to public key cryptography&lt;/a>&lt;/em>&lt;/p>
+&lt;p>Diffie-Hellman key exchange allows two parties to create a shared secret that can be used for secret communication over an insecure network. The illustration above uses colors as an analogy to explain the concept of key exchange.&lt;/p>
+&lt;p>The procedure begins by having both parties agree on some random starting color that does not need to be secret. In the illustration, both Alice and Bob have chosen yellow. Afterward, Bob and Alice choose individually a secret color that is not shared. In this example, it is red and teal.&lt;/p>
+&lt;p>Now, for the most important part — Alice and Bob have to mix their own secret color together with their mutually shared color. This results in orange-tan (Alice) and light-blue (Bob) pigments that are shared through a public network.&lt;/p>
+&lt;p>Lastly, the two-color mixtures are then mixed with their own secret color. The final resulting color should be the exact same for both parties (yellow-brownish).&lt;/p>
+&lt;p>The beauty behind this secret exchange is that it prevents third parties from listening in and acquiring the common secret color even if they knew the common color (yellow) and the first mixed colors (orange-tan and light-blue). In reality, numbers are used in place of colors; however the &lt;a href="https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange">Diffie-Hellman method&lt;/a> is determined to be computationally expensive to “crack”. “It is impossible to compute in a practical amount of time even for modern supercomputers.”&lt;/p>
+&lt;p>The common key can now be used to create key-pairs for PGP (Pretty Good Privacy) encrypted messages.&lt;/p>
+&lt;p>Diffie–Hellman has become the preferred key exchange algorithm for TLS (i.e. HTTPS) due its Forward Secrecy attributes, meaning that obtaining eventual access to the communicating systems does not enable an interested party to decrypt a previously recorded conversation. The previously popular key-exchange algorithm (RSA) does not support Forward Secrecy, and obtaining the RSA private keys from the communicating systems does allow previously recorded conversations to be decrypted.&lt;/p>
+&lt;h3 id="in-review">In Review&lt;/h3>
+&lt;p>We went over symmetric encryption that used one key encryption technique to both encrypt data and decrypt data. The major flaw in symmetric encryption was its inability to establish unique keys over an insecure network.&lt;/p>
+&lt;p>We also reviewed asymmetric encryption which solved the problem by using a public key for encryption and a private key for decryption. I explained how Diffie-Hellman is a possible algorithm to establish a shared secret between two parties, which in turn can be used for both symmetric or asymmetric encryption.&lt;/p>
+&lt;p>In the end, E2EE is a vital system of communication that provides the necessary security for our devices over the expansive internet. It helps us make sure that our private information stays private.&lt;/p>
+&lt;p>WAIT … I forgot the most important part. How can we build it? Here you go!&lt;/p>
+&lt;h3 id="now-lets-build-our-keys-with-pgp">Now let’s build our keys with PGP&lt;/h3>
+&lt;p>While modern version of Diffie-Hellman key exchange is not used in the (PGP) &lt;a href="https://en.wikipedia.org/wiki/Pretty_Good_Privacy">Pretty Good Privacy&lt;/a>, it still creates complex key-pairs using another algorithm call RSA. In this short guide, I will show you how to generate PGP key with GNU/Linux.&lt;/p>
+&lt;p>PGP is a popular encryption standard to establish end-to-end encryption. The GNU Privacy Guard is a free software that is part of the OpenPGP standard. In short, public keys can be generated and exchanged using this tool.&lt;/p>
+&lt;h4 id="step-1">Step 1&lt;/h4>
+&lt;p>First update your packages. Then install and configuring GnuPG on your Ubuntu 18.04 machine.&lt;/p>
+&lt;pre tabindex="0">&lt;code>$ sudo apt update &amp;amp;&amp;amp; sudo apt upgrade
 $ sudo apt install gnupg
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Once you are done with installing the GnuPG, you are ready to generate your key-pairs.&lt;/p&gt;
-&lt;h4 id=&#34;step-2&#34;&gt;Step 2&lt;/h4&gt;
-&lt;p&gt;Let’s dive into it. The very first thing you want to do is execute the command below that will walk you through the key generation process.&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ gpg --full-gen-key
-&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Please select what kind of key you want:
- (1) RSA and RSA (default)
- (2) DSA and Elgamal
- (3) DSA (sign only)
- (4) RSA (sign only)
+&lt;/code>&lt;/pre>&lt;p>Once you are done with installing the GnuPG, you are ready to generate your key-pairs.&lt;/p>
+&lt;h4 id="step-2">Step 2&lt;/h4>
+&lt;p>Let’s dive into it. The very first thing you want to do is execute the command below that will walk you through the key generation process.&lt;/p>
+&lt;pre tabindex="0">&lt;code>$ gpg --full-gen-key
+&lt;/code>&lt;/pre>&lt;pre tabindex="0">&lt;code>Please select what kind of key you want:
+(1) RSA and RSA (default)
+(2) DSA and Elgamal
+(3) DSA (sign only)
+(4) RSA (sign only)
 Your selection?
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;You want to choose the default option(1) that uses RSA. RSA is an algorithm used to encrypt and decrypt messages using a public and private key not much different from the Diffie-Hellman’s key exchange.&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;RSA keys may be between 1024 and 4096 bits long.
+&lt;/code>&lt;/pre>&lt;p>You want to choose the default option(1) that uses RSA. RSA is an algorithm used to encrypt and decrypt messages using a public and private key not much different from the Diffie-Hellman’s key exchange.&lt;/p>
+&lt;pre tabindex="0">&lt;code>RSA keys may be between 1024 and 4096 bits long.
 What key size do you want? (3072)
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;You will be prompted for your key length. In this case, we would like to choose 4096 bits because most people use it nowadays.&lt;/p&gt;
-&lt;p&gt;Afterward, you will specify how long the key should be valid. This allows keys to be not usable after a certain amount of time. If you want it to be active indefinitely type in 0.&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Please specify how long the key should be valid.         
- 0 = key does not expire      
- &amp;lt;n&amp;gt;  = key expires in n days      
- &amp;lt;n&amp;gt;w = key expires in n weeks       
-&amp;lt;n&amp;gt;m = key expires in n months       
+&lt;/code>&lt;/pre>&lt;p>You will be prompted for your key length. In this case, we would like to choose 4096 bits because most people use it nowadays.&lt;/p>
+&lt;p>Afterward, you will specify how long the key should be valid. This allows keys to be not usable after a certain amount of time. If you want it to be active indefinitely type in 0.&lt;/p>
+&lt;pre tabindex="0">&lt;code>Please specify how long the key should be valid.
+0 = key does not expire
+&amp;lt;n&amp;gt; = key expires in n days
+&amp;lt;n&amp;gt;w = key expires in n weeks
+&amp;lt;n&amp;gt;m = key expires in n months
 &amp;lt;n&amp;gt;y = key expires in n years Key is valid for? (0)
-&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;step-3&#34;&gt;Step 3&lt;/h4&gt;
-&lt;p&gt;In this step, you will be prompted to add your user ID which includes your name, email address, comment, and finally your passphrase.&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;GnuPG needs to construct a user ID to identify your key.
+&lt;/code>&lt;/pre>&lt;h4 id="step-3">Step 3&lt;/h4>
+&lt;p>In this step, you will be prompted to add your user ID which includes your name, email address, comment, and finally your passphrase.&lt;/p>
+&lt;pre tabindex="0">&lt;code>GnuPG needs to construct a user ID to identify your key.
 Real name: **** *****
 Email address: **********@gmail.com
 Comment: New key
 You selected this USER-ID:
-    &amp;quot;**** **** (New key) &amp;lt;***********@gmail.com&amp;gt;&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;The last step is that you will need to enter a passphrase. The passphrase will allow you to unlock the secret key when every you need to make any changes to your key or decrypt messages!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./image_6_end.png&#34; alt=&#34;passphrase entry&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Congratulation! You have created your key!&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;gpg: key 8FD4B01CB5FE9756 marked as ultimately trusted
-gpg: directory &#39;/root/.gnupg/openpgp-revocs.d&#39; created
-gpg: revocation certificate stored as &#39;/root/.gnupg/openpgp-revocs.d/4F9F86C428484360A346BE1E8FD4B01CB5FE9756.rev&#39;
+&amp;quot;**** **** (New key) &amp;lt;***********@gmail.com&amp;gt;&amp;quot;
+&lt;/code>&lt;/pre>&lt;p>The last step is that you will need to enter a passphrase. The passphrase will allow you to unlock the secret key when every you need to make any changes to your key or decrypt messages!&lt;/p>
+&lt;p>&lt;img src="./image_6_end.png" alt="passphrase entry">&lt;/p>
+&lt;p>Congratulation! You have created your key!&lt;/p>
+&lt;pre tabindex="0">&lt;code>gpg: key 8FD4B01CB5FE9756 marked as ultimately trusted
+gpg: directory '/root/.gnupg/openpgp-revocs.d' created
+gpg: revocation certificate stored as '/root/.gnupg/openpgp-revocs.d/4F9F86C428484360A346BE1E8FD4B01CB5FE9756.rev'
 public and secret key created and signed.
-pub   rsa4096 2020-04-17 [SC]
-      4F9F86C428484360A346BE1E8FD4B01CB5FE9756
-uid                      **** ****** (New key) &amp;lt;*********@gmail.com&amp;gt;
-sub   rsa4096 2020-04-17 [E]
-&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;whats-next&#34;&gt;What&amp;rsquo;s next?&lt;/h4&gt;
-&lt;p&gt;In this phase, we can use the GPA (The Gnu Privacy Assistant) tool to view and use our key&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ sudo apt install gpa
+pub rsa4096 2020-04-17 [SC]
+4F9F86C428484360A346BE1E8FD4B01CB5FE9756
+uid **** ****** (New key) &amp;lt;*********@gmail.com&amp;gt;
+sub rsa4096 2020-04-17 [E]
+&lt;/code>&lt;/pre>&lt;h4 id="whats-next">What&amp;rsquo;s next?&lt;/h4>
+&lt;p>In this phase, we can use the GPA (The Gnu Privacy Assistant) tool to view and use our key&lt;/p>
+&lt;pre tabindex="0">&lt;code>$ sudo apt install gpa
 $ gpa
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;./image_7_end.png&#34; alt=&#34;GPA&#34;&gt;
-You should see something similar to the picture above.&lt;/p&gt;
-&lt;p&gt;Once you have the GNU privacy Assistant Key Manger open, you can select the recently created key, then click Export Keys. Save your key anywhere you would like in your directories. Double click the recently exported Key to view its contents.&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;:-----BEGIN PGP PUBLIC KEY BLOCK-----    
-
-
-iQI2BCABCgAgFiEET5+GxChIQ2CjRr4ej9SwHLX+l1YFAl6aIVACHQAACgkQj9Sw    
-HLX+l1YlHQ/+I4CrsdBY6DfRza8WJwe4YoL18n4ZTE8IBPF000yZGUs8sODZ+bqR    
-BTbNbDdBJCTaF55dooNUorh9PtcdLOwX7YEKITr9/NI13G4FEIauk1Ss3oH1d32s    
-xd4ZZhiT6tiKtQyRw30H2fyEesQIvnUzs6PxB6v0QYhwb1KzSrzmv0B3+4LvmC9J    
-XS9ARYy5S/g3SJsxBPmqbxdxIuH50eIIbSPZtF0BwDpCWmXJ1JrdymrvvB058u7Z    
-1ML8R5S0SGbqy3kzQVjig2QdRd6aN97n/h1lneIeyOXsNN6tyhPKm82AzFNYYnpk    
-dVgkGt03WM7x+nvtkY61tduT3Pe3et6YZw2jUnCxQJlNL60wDci0ulxZzTHnUSdj    
-yXlwqEZ0UnZVQxahQh5epVnA7EiNbYm1JYtH47eVuefiI2t56GrnWnLoy6S/zHzV    
-xTcDVvfDj4aqvYTrTNMS1ce7dxkbdh9G81mPwI8AlbEjN2UGLWN/3wOVlajUukV1    
-/x5xVaS5gP8meaeCY5661OLKw5a3e3VxUBFfLR0R3qzMzenmJs8ctBqo1Wt8VdIh    
-gItU1AGwrgOK37x1fgikWUWXzPBs38z/KCrifBSh31gFhRZykXzjeGzbWHrPpN/G    
-rhA4oMIXlqGGcZD7Y7vV/uT7AsCEQ8kzkYIoWlf4a9+Kj96MBkv6sik=    
-=faSA    
+&lt;/code>&lt;/pre>&lt;p>&lt;img src="./image_7_end.png" alt="GPA">
+You should see something similar to the picture above.&lt;/p>
+&lt;p>Once you have the GNU privacy Assistant Key Manger open, you can select the recently created key, then click Export Keys. Save your key anywhere you would like in your directories. Double click the recently exported Key to view its contents.&lt;/p>
+&lt;pre tabindex="0">&lt;code>:-----BEGIN PGP PUBLIC KEY BLOCK-----
+iQI2BCABCgAgFiEET5+GxChIQ2CjRr4ej9SwHLX+l1YFAl6aIVACHQAACgkQj9Sw
+HLX+l1YlHQ/+I4CrsdBY6DfRza8WJwe4YoL18n4ZTE8IBPF000yZGUs8sODZ+bqR
+BTbNbDdBJCTaF55dooNUorh9PtcdLOwX7YEKITr9/NI13G4FEIauk1Ss3oH1d32s
+xd4ZZhiT6tiKtQyRw30H2fyEesQIvnUzs6PxB6v0QYhwb1KzSrzmv0B3+4LvmC9J
+XS9ARYy5S/g3SJsxBPmqbxdxIuH50eIIbSPZtF0BwDpCWmXJ1JrdymrvvB058u7Z
+1ML8R5S0SGbqy3kzQVjig2QdRd6aN97n/h1lneIeyOXsNN6tyhPKm82AzFNYYnpk
+dVgkGt03WM7x+nvtkY61tduT3Pe3et6YZw2jUnCxQJlNL60wDci0ulxZzTHnUSdj
+yXlwqEZ0UnZVQxahQh5epVnA7EiNbYm1JYtH47eVuefiI2t56GrnWnLoy6S/zHzV
+xTcDVvfDj4aqvYTrTNMS1ce7dxkbdh9G81mPwI8AlbEjN2UGLWN/3wOVlajUukV1
+/x5xVaS5gP8meaeCY5661OLKw5a3e3VxUBFfLR0R3qzMzenmJs8ctBqo1Wt8VdIh
+gItU1AGwrgOK37x1fgikWUWXzPBs38z/KCrifBSh31gFhRZykXzjeGzbWHrPpN/G
+rhA4oMIXlqGGcZD7Y7vV/uT7AsCEQ8kzkYIoWlf4a9+Kj96MBkv6sik=
+=faSA
 -----END PGP PUBLIC KEY BLOCK-----
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;We are now done with the key part. Next, we want to exchange a message with somebody over the internet.
-First of all, we will need to see who is doing the talking? Send your public key over to your friend and ask them to do the same for you. Next, save their key somewhere and import it by pressing Import Keys. Now that you have exchanged public keys we can start encrypting messages.&lt;/p&gt;
-&lt;p&gt;To import their public key all you need to do is press the &lt;strong&gt;Import Keys&lt;/strong&gt; button on the GNU Privacy Assistant manager.&lt;/p&gt;
-&lt;p&gt;It is time to write your secret message. Go and open the GNU clipboard by pressing the &lt;strong&gt;Clipboard icon&lt;/strong&gt;. This window will pop up:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./image_8_end.png&#34; alt=&#34;GNU clipboard&#34;&gt;&lt;/p&gt;
-&lt;p&gt;The white space allows you to write anything you would like to be kept secret. When you&amp;rsquo;ve finished composing your message, you can go ahead and press &lt;strong&gt;Encrypt the buffer text&lt;/strong&gt;, which looks like an envelope with a blue key in front of it. Make sure to choose the public key of whomever you are talking to. For additional safety, you can also sign the encrypted message with your key.&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;-----BEGIN PGP MESSAGE----- Version: GnuPG v2
-xTcDVvfDj4aqvYTrTNMS1ce7dxkbdh9G81mPwI8AlbEjN2UGLWN/3wOVlajUukV1    
-/x5xVaS5gP8meaeCY5661OLKw5a3e3VxUBFfLR0R3qzMzenmJs8ctBqo1Wt8VdIh    
-gItU1AGwrgOK37x1fgikWUWXzPBs38z/KCrifBSh31gFhRZykXzjeGzbWHrPpN/G    
-rhA4oMIXlqGGcZD7Y7vV/uT7AsCEQ8kzkYIoWlf4a9+Kj96MBkv6sik= iQI2BCABCgAgFiEET5+GxChIQ2CjRr4ej9SwHLX+l1YFAl6aIVACHQAACgkQj9Sw    
-HiQI2BCABCgAgFiEET5+GxChIQ2CjRr4ej9SwHLX+l1YFAl6aIVACHQAACgkQj9Sw    
-HLX+l1YlHQ/+I4CrsdBY6DfRza8WJwe4YoL18n4ZTE8IBPF000yZGUs8sODZ+bqR    
-BTbNbDdBJCTaF55dooNUorh9PtcdLOwX7YEKITr9/NI13G4FEIauk1Ss3oH1d32s    
-xd4ZZhiT6tiKtQyRw30H2fyEesQIvnUzs6PxB6v0QYhwb1KzSrzmv0B3+4LvmC9J    
-XS9ARYy5S/g3SJsxBPmqbxdxIuH50eIIbSPZtF0BwDpCWmXJ1JrdymrvvB058u7Z    
-1ML8R5S0SGbqy3kzQVjig2QdRd6aN97n/h1lneIeyOXsNN6tyhPKm82AzFNYYnpk    
-dVgkGt03WM7x+nvtkY61tduT3Pe3et6YZw2jUnCxQJlNL60wDci0ulxZzTHnUSdj    
-
- -----END PGP MESSAGE-----
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;It will look similar to the above. Now you can send it however you like, through email or text.
-Voila! You have made end-to-end encryption!&lt;/p&gt;
-&lt;p&gt;Note, once you or your friend receives the encrypted message, all they have to do to decrypt the message is to paste it in the clipboard and decrypt it by pressing the &lt;strong&gt;Decrypt the buffer text&lt;/strong&gt;.&lt;/p&gt;
-&lt;h3 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h3&gt;
-&lt;p&gt;End-to-End Encryption is a valuable tool that allows internet users to send their information securely and privately over a public network. I recommend you do your own research about the email and messaging platforms you use and how they send your data. If they use end-to-end encryption, then count them as a good service provider because they value your privacy.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Complex Event Processing</title>
-      <link>https://examplesite.org/post/cep/</link>
-      <pubDate>Fri, 20 Mar 2020 00:00:00 -0700</pubDate>
-      
-      <guid>https://examplesite.org/post/cep/</guid>
-      <description>&lt;p&gt;Big data companies use the term Event Cloud to refer to the massive amounts of data on events being collected. The demand for rapid, actionable decisions illustrates the importance of enabling technologies like Complex Event Processing (CEP).&lt;/p&gt;
-&lt;p&gt;Data is all around us. Sensor networks, smart devices and mobile apps are continuously collecting more and more data.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;90 percent of the data in the world today has been created in the last two years alone, creating 2.5 quintillion bytes of data every day - and with new devices, sensors and technologies emerging, the data growth rate will likely accelerate even more.&amp;rdquo;
-&lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;https://www.mediapost.com/publications/article/291358/90-of-todays-data-created-in-two-years.html&#34;&gt;IBM Marketing Cloud Report&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;As we struggle to process and analyze the ever-growing streams of data in near-real time, the ability to react rapidly to changing trends or deliver up-to-date business and security intelligence can prove invaluable to a company&amp;rsquo;s success or failure. With the availability of thousands to millions of data streams and incoming events, we are constantly challenged with how to proactively take effective actions. What is the solution? CEP addresses this exact problem.&lt;/p&gt;
-&lt;h3 id=&#34;what-is-complex-event-processing-and-why-is-it-important&#34;&gt;What is Complex Event Processing and why is it important?&lt;/h3&gt;
-&lt;p&gt;CEP, according to the book &lt;em&gt;&lt;a href=&#34;https://www.amazon.com/Performance-memory-computing-Apache-Ignite/dp/1365732355&#34;&gt;High performance in-memory data grid with Apache Ignite&lt;/a&gt;&lt;/em&gt; by Shamim Bhuiyan and Michael Zheludkov is primarily &amp;ldquo;an event processing concept that deals with the task of processing multiple events with the goal of identifying the meaningful events within the event cloud in real time or near real time.&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;The CEP processing paradigm can be found in a wide variety of industries including finance, security, and healthcare. For financial applications, CEP is often used for credit card fraud detection and stock market monitoring. Furthermore, security CEP is used to flag malicious agents and can even automate proper counter-measure responses. While in healthcare, CEP can be used to correlate care, treatment events, associated treatments, and insurance compliance regimes.&lt;/p&gt;
-&lt;h3 id=&#34;how-does-cep-work&#34;&gt;How does CEP work?&lt;/h3&gt;
-&lt;p&gt;CEP uses declarative rules to specify event processing logic. Its  ability to continuously match pattern incoming events is attributed to the following various techniques:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Event-Pattern Detection&lt;/li&gt;
-&lt;li&gt;Event Abstraction&lt;/li&gt;
-&lt;li&gt;Event Filtering&lt;/li&gt;
-&lt;li&gt;Event Aggregation and Transformation&lt;/li&gt;
-&lt;li&gt;Detecting Relationships such as Causality&lt;/li&gt;
-&lt;li&gt;Membership, and Timing Between Events&lt;/li&gt;
-&lt;li&gt;Abstracting Event-Driven Processes&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I won&amp;rsquo;t go into detail, however, I will illustrate the general concept using an example of a car.&lt;/p&gt;
-&lt;p&gt;First, we need an event source, i.e. anything that provides information about the environment. This can be in the form of transactions, log files, edge processing/detection algorithms or sensors. For example, our car tires can move from 45 psi to 41 psi over 15 minutes. That is our event.&lt;/p&gt;
-&lt;p&gt;Next comes the event processing. In this step, we can make inferences on the data we received into meaning actions. This can be done using complex rule engines, neural networks, Bayesian networks, analytics or data and semantic rules. For example, our car losing tire pressure over an extended period of time results in the creation of the &lt;code&gt;LossOfTirePresure&lt;/code&gt; event.&lt;/p&gt;
-&lt;p&gt;Finally, the last step is the response or action. In order to effectively respond to an event, actions are taken. These actions can be alerts, logging files, triggers for more complicated workflows, or automated actions. For the car example, the event &amp;lsquo;LossOfTirePresure&amp;rsquo; can trigger a reaction process to note the pressure loss into the car&amp;rsquo;s maintenance log and alert the driver via the car&amp;rsquo;s portal that the tire pressure has decreased.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./cep1.jpeg&#34; alt=&#34;CEP1&#34;&gt;&lt;!-- raw HTML omitted --&gt;
-&lt;em&gt;Image source: &lt;a href=&#34;https://databricks.com/glossary/complex-event-processing&#34;&gt;Databricks&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;h3 id=&#34;what-tools-are-available&#34;&gt;What tools are available?&lt;/h3&gt;
-&lt;p&gt;The most common tools used for Complex Event Processing according to the company &lt;a href=&#34;https://databricks.com/glossary/complex-event-processing&#34;&gt;Databricks&lt;/a&gt; are:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Apache Spark Streaming used by Databricks&lt;/li&gt;
-&lt;li&gt;Apache Flink used by Data Artisans&lt;/li&gt;
-&lt;li&gt;Apache Samza used by LinkedIn&lt;/li&gt;
-&lt;li&gt;Apache Storm used by Twitter&lt;/li&gt;
-&lt;li&gt;Hadoop/MapReduce&lt;/li&gt;
-&lt;li&gt;Amazon Kinesis Analytics&lt;/li&gt;
-&lt;li&gt;Microsoft Azure Stream Analytics, Stream Insight&lt;/li&gt;
-&lt;li&gt;Fujitsu Software Interstage Big Data Complex Event Processing Server&lt;/li&gt;
-&lt;li&gt;IBM Streams, Operational Decision Manager (ODM)&lt;/li&gt;
-&lt;li&gt;Oracle Stream Analytics and Stream Explore&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;These are just a number of open source streaming frameworks available that allow users to set up data processing engines on their devices.&lt;/p&gt;
-&lt;h3 id=&#34;want-to-know-more&#34;&gt;Want to know more?&lt;/h3&gt;
-&lt;p&gt;If you are interested in practical applications using CEP, I recommend reading &lt;em&gt;High performance in-memory data grid with Apache Ignite&lt;/em&gt; (referenced above) or the new book &lt;em&gt;&lt;a href=&#34;https://leanpub.com/ignitebook&#34;&gt;The Apache Ignite Book&lt;/a&gt;&lt;/em&gt; by Shamim Bhuiyan and Michael Zheludkov. They provide code samples, scripts, and more in-depth examples throughout the book.&lt;/p&gt;</description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;/code>&lt;/pre>&lt;p>We are now done with the key part. Next, we want to exchange a message with somebody over the internet.
+First of all, we will need to see who is doing the talking? Send your public key over to your friend and ask them to do the same for you. Next, save their key somewhere and import it by pressing Import Keys. Now that you have exchanged public keys we can start encrypting messages.&lt;/p>
+&lt;p>To import their public key all you need to do is press the &lt;strong>Import Keys&lt;/strong> button on the GNU Privacy Assistant manager.&lt;/p>
+&lt;p>It is time to write your secret message. Go and open the GNU clipboard by pressing the &lt;strong>Clipboard icon&lt;/strong>. This window will pop up:&lt;/p>
+&lt;p>&lt;img src="./image_8_end.png" alt="GNU clipboard">&lt;/p>
+&lt;p>The white space allows you to write anything you would like to be kept secret. When you&amp;rsquo;ve finished composing your message, you can go ahead and press &lt;strong>Encrypt the buffer text&lt;/strong>, which looks like an envelope with a blue key in front of it. Make sure to choose the public key of whomever you are talking to. For additional safety, you can also sign the encrypted message with your key.&lt;/p>
+&lt;pre tabindex="0">&lt;code>-----BEGIN PGP MESSAGE----- Version: GnuPG v2
+xTcDVvfDj4aqvYTrTNMS1ce7dxkbdh9G81mPwI8AlbEjN2UGLWN/3wOVlajUukV1
+/x5xVaS5gP8meaeCY5661OLKw5a3e3VxUBFfLR0R3qzMzenmJs8ctBqo1Wt8VdIh
+gItU1AGwrgOK37x1fgikWUWXzPBs38z/KCrifBSh31gFhRZykXzjeGzbWHrPpN/G
+rhA4oMIXlqGGcZD7Y7vV/uT7AsCEQ8kzkYIoWlf4a9+Kj96MBkv6sik= iQI2BCABCgAgFiEET5+GxChIQ2CjRr4ej9SwHLX+l1YFAl6aIVACHQAACgkQj9Sw
+HiQI2BCABCgAgFiEET5+GxChIQ2CjRr4ej9SwHLX+l1YFAl6aIVACHQAACgkQj9Sw
+HLX+l1YlHQ/+I4CrsdBY6DfRza8WJwe4YoL18n4ZTE8IBPF000yZGUs8sODZ+bqR
+BTbNbDdBJCTaF55dooNUorh9PtcdLOwX7YEKITr9/NI13G4FEIauk1Ss3oH1d32s
+xd4ZZhiT6tiKtQyRw30H2fyEesQIvnUzs6PxB6v0QYhwb1KzSrzmv0B3+4LvmC9J
+XS9ARYy5S/g3SJsxBPmqbxdxIuH50eIIbSPZtF0BwDpCWmXJ1JrdymrvvB058u7Z
+1ML8R5S0SGbqy3kzQVjig2QdRd6aN97n/h1lneIeyOXsNN6tyhPKm82AzFNYYnpk
+dVgkGt03WM7x+nvtkY61tduT3Pe3et6YZw2jUnCxQJlNL60wDci0ulxZzTHnUSdj
+-----END PGP MESSAGE-----
+&lt;/code>&lt;/pre>&lt;p>It will look similar to the above. Now you can send it however you like, through email or text.
+Voila! You have made end-to-end encryption!&lt;/p>
+&lt;p>Note, once you or your friend receives the encrypted message, all they have to do to decrypt the message is to paste it in the clipboard and decrypt it by pressing the &lt;strong>Decrypt the buffer text&lt;/strong>.&lt;/p>
+&lt;h3 id="conclusion">Conclusion&lt;/h3>
+&lt;p>End-to-End Encryption is a valuable tool that allows internet users to send their information securely and privately over a public network. I recommend you do your own research about the email and messaging platforms you use and how they send your data. If they use end-to-end encryption, then count them as a good service provider because they value your privacy.&lt;/p></description></item><item><title>Complex Event Processing</title><link>https://examplesite.org/post/cep/</link><pubDate>Fri, 20 Mar 2020 00:00:00 -0700</pubDate><guid>https://examplesite.org/post/cep/</guid><description>&lt;p>Big data companies use the term Event Cloud to refer to the massive amounts of data on events being collected. The demand for rapid, actionable decisions illustrates the importance of enabling technologies like Complex Event Processing (CEP).&lt;/p>
+&lt;p>Data is all around us. Sensor networks, smart devices and mobile apps are continuously collecting more and more data.&lt;/p>
+&lt;blockquote>
+&lt;p>&amp;ldquo;90 percent of the data in the world today has been created in the last two years alone, creating 2.5 quintillion bytes of data every day - and with new devices, sensors and technologies emerging, the data growth rate will likely accelerate even more.&amp;rdquo;
+&lt;!-- raw HTML omitted -->&lt;a href="https://www.mediapost.com/publications/article/291358/90-of-todays-data-created-in-two-years.html">IBM Marketing Cloud Report&lt;/a>&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;/blockquote>
+&lt;p>As we struggle to process and analyze the ever-growing streams of data in near-real time, the ability to react rapidly to changing trends or deliver up-to-date business and security intelligence can prove invaluable to a company&amp;rsquo;s success or failure. With the availability of thousands to millions of data streams and incoming events, we are constantly challenged with how to proactively take effective actions. What is the solution? CEP addresses this exact problem.&lt;/p>
+&lt;h3 id="what-is-complex-event-processing-and-why-is-it-important">What is Complex Event Processing and why is it important?&lt;/h3>
+&lt;p>CEP, according to the book &lt;em>&lt;a href="https://www.amazon.com/Performance-memory-computing-Apache-Ignite/dp/1365732355">High performance in-memory data grid with Apache Ignite&lt;/a>&lt;/em> by Shamim Bhuiyan and Michael Zheludkov is primarily &amp;ldquo;an event processing concept that deals with the task of processing multiple events with the goal of identifying the meaningful events within the event cloud in real time or near real time.&amp;rdquo;&lt;/p>
+&lt;p>The CEP processing paradigm can be found in a wide variety of industries including finance, security, and healthcare. For financial applications, CEP is often used for credit card fraud detection and stock market monitoring. Furthermore, security CEP is used to flag malicious agents and can even automate proper counter-measure responses. While in healthcare, CEP can be used to correlate care, treatment events, associated treatments, and insurance compliance regimes.&lt;/p>
+&lt;h3 id="how-does-cep-work">How does CEP work?&lt;/h3>
+&lt;p>CEP uses declarative rules to specify event processing logic. Its ability to continuously match pattern incoming events is attributed to the following various techniques:&lt;/p>
+&lt;ul>
+&lt;li>Event-Pattern Detection&lt;/li>
+&lt;li>Event Abstraction&lt;/li>
+&lt;li>Event Filtering&lt;/li>
+&lt;li>Event Aggregation and Transformation&lt;/li>
+&lt;li>Detecting Relationships such as Causality&lt;/li>
+&lt;li>Membership, and Timing Between Events&lt;/li>
+&lt;li>Abstracting Event-Driven Processes&lt;/li>
+&lt;/ul>
+&lt;p>I won&amp;rsquo;t go into detail, however, I will illustrate the general concept using an example of a car.&lt;/p>
+&lt;p>First, we need an event source, i.e. anything that provides information about the environment. This can be in the form of transactions, log files, edge processing/detection algorithms or sensors. For example, our car tires can move from 45 psi to 41 psi over 15 minutes. That is our event.&lt;/p>
+&lt;p>Next comes the event processing. In this step, we can make inferences on the data we received into meaning actions. This can be done using complex rule engines, neural networks, Bayesian networks, analytics or data and semantic rules. For example, our car losing tire pressure over an extended period of time results in the creation of the &lt;code>LossOfTirePresure&lt;/code> event.&lt;/p>
+&lt;p>Finally, the last step is the response or action. In order to effectively respond to an event, actions are taken. These actions can be alerts, logging files, triggers for more complicated workflows, or automated actions. For the car example, the event &amp;lsquo;LossOfTirePresure&amp;rsquo; can trigger a reaction process to note the pressure loss into the car&amp;rsquo;s maintenance log and alert the driver via the car&amp;rsquo;s portal that the tire pressure has decreased.&lt;/p>
+&lt;p>&lt;img src="./cep1.jpeg" alt="CEP1">&lt;!-- raw HTML omitted -->
+&lt;em>Image source: &lt;a href="https://databricks.com/glossary/complex-event-processing">Databricks&lt;/a>&lt;/em>&lt;/p>
+&lt;h3 id="what-tools-are-available">What tools are available?&lt;/h3>
+&lt;p>The most common tools used for Complex Event Processing according to the company &lt;a href="https://databricks.com/glossary/complex-event-processing">Databricks&lt;/a> are:&lt;/p>
+&lt;ul>
+&lt;li>Apache Spark Streaming used by Databricks&lt;/li>
+&lt;li>Apache Flink used by Data Artisans&lt;/li>
+&lt;li>Apache Samza used by LinkedIn&lt;/li>
+&lt;li>Apache Storm used by Twitter&lt;/li>
+&lt;li>Hadoop/MapReduce&lt;/li>
+&lt;li>Amazon Kinesis Analytics&lt;/li>
+&lt;li>Microsoft Azure Stream Analytics, Stream Insight&lt;/li>
+&lt;li>Fujitsu Software Interstage Big Data Complex Event Processing Server&lt;/li>
+&lt;li>IBM Streams, Operational Decision Manager (ODM)&lt;/li>
+&lt;li>Oracle Stream Analytics and Stream Explore&lt;/li>
+&lt;/ul>
+&lt;p>These are just a number of open source streaming frameworks available that allow users to set up data processing engines on their devices.&lt;/p>
+&lt;h3 id="want-to-know-more">Want to know more?&lt;/h3>
+&lt;p>If you are interested in practical applications using CEP, I recommend reading &lt;em>High performance in-memory data grid with Apache Ignite&lt;/em> (referenced above) or the new book &lt;em>&lt;a href="https://leanpub.com/ignitebook">The Apache Ignite Book&lt;/a>&lt;/em> by Shamim Bhuiyan and Michael Zheludkov. They provide code samples, scripts, and more in-depth examples throughout the book.&lt;/p></description></item></channel></rss>

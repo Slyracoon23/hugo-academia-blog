@@ -1,603 +1,228 @@
-<!DOCTYPE html>
-<html lang="en-us">
-
+<!doctype html><html lang=en-us>
 <head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academia 4.3.1">
-  <meta name="generator" content="Hugo 0.92.2" />
-
-  
-
-  
-  
-  
-  
-  
-    
-    
-    
-  
-  
-
-  <meta name="author" content="Earl Potters">
-
-  
-  
-  
-    
-  
-  <meta name="description" content="End-to-end encryption (E2EE) is a a public key encryption system that prevents the contents of your messages, text, and files from being understood by anyone except their intended recipients.">
-
-  
-  <link rel="alternate" hreflang="en-us" href="https://examplesite.org/post/end-2-end-encryption/">
-
-  
-
-
-  
-
-  
-  
-  
-  <meta name="theme-color" content="#fc6f5c">
-  
-
-  
-  
-  
-  
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
-
-    
-    
-    
-      
-    
-    
-      
-      
-        
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
-        
-      
-    
-
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
-    
-
-    
-
-  
-
-  
-  
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans|Roboto+Mono&display=swap">
-  
-
-  
-  
-  
-  <link rel="stylesheet" href="/css/academia.min.76e69f7370e1e1222344c0109d841c44.css">
-
-  
-
-  
-  
-  
-
-  
-
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="icon" type="image/png" href="/img/icon.png">
-  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
-
-  <link rel="canonical" href="https://examplesite.org/post/end-2-end-encryption/">
-
-  
-  
-  
-  
-    
-  
-  <meta property="twitter:card" content="summary_large_image">
-  
-  <meta property="og:site_name" content="Earl&#39;s Website">
-  <meta property="og:url" content="https://examplesite.org/post/end-2-end-encryption/">
-  <meta property="og:title" content="End-to-End Encryption (E2EE) Explained | Earl&#39;s Website">
-  <meta property="og:description" content="End-to-end encryption (E2EE) is a a public key encryption system that prevents the contents of your messages, text, and files from being understood by anyone except their intended recipients."><meta property="og:image" content="https://examplesite.org/post/end-2-end-encryption/featured.jpg">
-  <meta property="twitter:image" content="https://examplesite.org/post/end-2-end-encryption/featured.jpg"><meta property="og:locale" content="en-us">
-  
-  <meta property="article:published_time" content="2020-04-25T00:00:00-07:00">
-  
-  <meta property="article:modified_time" content="2020-04-25T00:00:00-07:00">
-  
-
-  
-
-
-  
-
-
-
-
-
-  <title>End-to-End Encryption (E2EE) Explained | Earl&#39;s Website</title>
-
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<meta name=generator content="Source Themes Academia 4.3.1">
+<meta name=generator content="Hugo 0.92.2">
+<meta name=author content="Earl Potters">
+<meta name=description content="End-to-end encryption (E2EE) is a a public key encryption system that prevents the contents of your messages, text, and files from being understood by anyone except their intended recipients.">
+<link rel=alternate hreflang=en-us href=https://examplesite.org/post/end-2-end-encryption/>
+<meta name=theme-color content="#fc6f5c">
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous>
+<link rel=stylesheet href=https://use.fontawesome.com/releases/v5.6.0/css/all.css integrity=sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h crossorigin=anonymous>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin=anonymous>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css crossorigin=anonymous title=hl-light>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css crossorigin=anonymous title=hl-dark disabled>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin=anonymous>
+<link rel=stylesheet href="https://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans|Roboto+Mono&display=swap">
+<link rel=stylesheet href=/css/academia.min.76e69f7370e1e1222344c0109d841c44.css>
+<link rel=manifest href=/site.webmanifest>
+<link rel=icon type=image/png href=/img/icon.png>
+<link rel=apple-touch-icon type=image/png href=/img/icon-192.png>
+<link rel=canonical href=https://examplesite.org/post/end-2-end-encryption/>
+<meta property="twitter:card" content="summary_large_image">
+<meta property="og:site_name" content="Earl's Website">
+<meta property="og:url" content="https://examplesite.org/post/end-2-end-encryption/">
+<meta property="og:title" content="End-to-End Encryption (E2EE) Explained | Earl's Website">
+<meta property="og:description" content="End-to-end encryption (E2EE) is a a public key encryption system that prevents the contents of your messages, text, and files from being understood by anyone except their intended recipients."><meta property="og:image" content="https://examplesite.org/post/end-2-end-encryption/featured.jpg">
+<meta property="twitter:image" content="https://examplesite.org/post/end-2-end-encryption/featured.jpg"><meta property="og:locale" content="en-us">
+<meta property="article:published_time" content="2020-04-25T00:00:00-07:00">
+<meta property="article:modified_time" content="2020-04-25T00:00:00-07:00">
+<title>End-to-End Encryption (E2EE) Explained | Earl's Website</title>
 </head>
-
-
-<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
-
-  <aside class="search-results" id="search">
-  <div class="container">
-    <section class="search-header">
-
-      <div class="row no-gutters justify-content-between mb-3">
-        <div class="col-6">
-          <h1>Search</h1>
-        </div>
-        <div class="col-6 col-search-close">
-          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
-        </div>
-      </div>
-
-      <div id="search-box">
-        
-        
-        
-      </div>
-
-    </section>
-    <section class="section-search-results">
-
-      <div id="search-hits">
-        
-      </div>
-
-    </section>
-  </div>
+<body id=top data-spy=scroll data-target=#TableOfContents data-offset=71>
+<aside class=search-results id=search>
+<div class=container>
+<section class=search-header>
+<div class="row no-gutters justify-content-between mb-3">
+<div class=col-6>
+<h1>Search</h1>
+</div>
+<div class="col-6 col-search-close">
+<a class=js-search href=#><i class="fas fa-times-circle text-muted" aria-hidden=true></i></a>
+</div>
+</div>
+<div id=search-box>
+</div>
+</section>
+<section class=section-search-results>
+<div id=search-hits>
+</div>
+</section>
+</div>
 </aside>
-
-
-  
-<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
-  <div class="container">
-
-    
-      <a class="navbar-brand" href="/">Earl&#39;s Website</a>
-      
-      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"><span><i class="fas fa-bars"></i></span>
-      </button>
-      
-
-    
-    <div class="collapse navbar-collapse" id="navbar">
-
-      
-      
-      <ul class="navbar-nav ml-auto">
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#about"><span>Home</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#accomplishments"><span>Accomplishments</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#experience"><span>Experience</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#contact"><span>Contact</span></a>
-        </li>
-
-        
-        
-
-      
-
-        
-
-        
-
-        
-
-        
-        <li class="nav-item">
-          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
-        </li>
-        
-
-      </ul>
-
-    </div>
-  </div>
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id=navbar-main>
+<div class=container>
+<a class=navbar-brand href=/>Earl's Website</a>
+<button type=button class=navbar-toggler data-toggle=collapse data-target=#navbar aria-controls=navbar aria-expanded=false aria-label="Toggle navigation"><span><i class="fas fa-bars"></i></span>
+</button>
+<div class="collapse navbar-collapse" id=navbar>
+<ul class="navbar-nav ml-auto">
+<li class=nav-item>
+<a class=nav-link href=/#about><span>Home</span></a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/#accomplishments><span>Accomplishments</span></a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/#experience><span>Experience</span></a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/#contact><span>Contact</span></a>
+</li>
+<li class=nav-item>
+<a class="nav-link js-dark-toggle" href=#><i class="fas fa-moon" aria-hidden=true></i></a>
+</li>
+</ul>
+</div>
+</div>
 </nav>
-
-
-  <article class="article py-5" itemscope itemtype="http://schema.org/Article">
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
+<article class="article py-5" itemscope itemtype=http://schema.org/Article>
 <div class="container split-header">
-  <div class="row justify-content-center">
-    <div class="col-lg-8">
-        <img class="img-fluid w-100" src="/post/end-2-end-encryption/featured_hu4beb89e64769322446f0a7365c88cdb1_71988_680x500_fill_q90_lanczos_smart1.jpg" itemprop="image" alt="">
-        <span
-          class="article-header-caption">Image credit: <a href="https://unsplash.com/photos/CpkOjOcXdUY"><strong>Unsplash</strong></a></span>
-    </div>
-    <div class="col-lg-8">
-      <h1 itemprop="name">End-to-End Encryption (E2EE) Explained</h1>
-
-      
-      <p class="page-subtitle">End-to-end encryption (E2EE) is a a public key encryption system that prevents the contents of your messages, text, and files from being understood by anyone except their intended recipients.</p>
-      
-
-      
-
-
-
-<meta content="2020-04-25 00:00:00 -0700 -0700" itemprop="datePublished">
-<meta content="2020-04-25 00:00:00 -0700 -0700" itemprop="dateModified">
-
-<div class="article-metadata">
-
-  
-  
-  
-  
-  <div>
-    
-
-
-
-  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Earl Potters</a></span>
-
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    <time>Apr 25, 2020</time>
-  </span>
-  
-
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    10 min read
-  </span>
-  
-
-  
-  
-
-  
-  
-
-  
-    
-<div class="share-box" aria-hidden="true">
-  <ul class="share">
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://twitter.com/intent/tweet?url=https://examplesite.org/post/end-2-end-encryption/&amp;text=End-to-End%20Encryption%20%28E2EE%29%20Explained" target="_blank" rel="noopener" class="share-btn-twitter">
-          <i class="fab fa-twitter"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://examplesite.org/post/end-2-end-encryption/&amp;t=End-to-End%20Encryption%20%28E2EE%29%20Explained" target="_blank" rel="noopener" class="share-btn-facebook">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="mailto:?subject=End-to-End%20Encryption%20%28E2EE%29%20Explained&amp;body=https://examplesite.org/post/end-2-end-encryption/" target="_blank" rel="noopener" class="share-btn-email">
-          <i class="fas fa-envelope"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://examplesite.org/post/end-2-end-encryption/&amp;title=End-to-End%20Encryption%20%28E2EE%29%20Explained" target="_blank" rel="noopener" class="share-btn-linkedin">
-          <i class="fab fa-linkedin-in"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://web.whatsapp.com/send?text=End-to-End%20Encryption%20%28E2EE%29%20Explained%20https://examplesite.org/post/end-2-end-encryption/" target="_blank" rel="noopener" class="share-btn-whatsapp">
-          <i class="fab fa-whatsapp"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://examplesite.org/post/end-2-end-encryption/&amp;title=End-to-End%20Encryption%20%28E2EE%29%20Explained" target="_blank" rel="noopener" class="share-btn-weibo">
-          <i class="fab fa-weibo"></i>
-        </a>
-      </li>
-    
-  </ul>
+<div class="row justify-content-center">
+<div class=col-lg-8>
+<img class="img-fluid w-100" src=/post/end-2-end-encryption/featured_hu4beb89e64769322446f0a7365c88cdb1_71988_680x500_fill_q90_lanczos_smart1.jpg itemprop=image alt>
+<span class=article-header-caption>Image credit: <a href=https://unsplash.com/photos/CpkOjOcXdUY><strong>Unsplash</strong></a></span>
 </div>
-
-
-  
-
+<div class=col-lg-8>
+<h1 itemprop=name>End-to-End Encryption (E2EE) Explained</h1>
+<p class=page-subtitle>End-to-end encryption (E2EE) is a a public key encryption system that prevents the contents of your messages, text, and files from being understood by anyone except their intended recipients.</p>
+<meta content="2020-04-25 00:00:00 -0700 -0700" itemprop=datePublished>
+<meta content="2020-04-25 00:00:00 -0700 -0700" itemprop=dateModified>
+<div class=article-metadata>
+<div>
+<span itemprop="author name" itemtype=http://schema.org/Person><a href=/authors/admin/>Earl Potters</a></span>
 </div>
-
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-    
-    </div>
-  </div>
+<span class=article-date>
+<time>Apr 25, 2020</time>
+</span>
+<span class=middot-divider></span>
+<span class=article-reading-time>
+10 min read
+</span>
+<div class=share-box aria-hidden=true>
+<ul class=share>
+<li>
+<a href="https://twitter.com/intent/tweet?url=https://examplesite.org/post/end-2-end-encryption/&text=End-to-End%20Encryption%20%28E2EE%29%20Explained" target=_blank rel=noopener class=share-btn-twitter>
+<i class="fab fa-twitter"></i>
+</a>
+</li>
+<li>
+<a href="https://www.facebook.com/sharer.php?u=https://examplesite.org/post/end-2-end-encryption/&t=End-to-End%20Encryption%20%28E2EE%29%20Explained" target=_blank rel=noopener class=share-btn-facebook>
+<i class="fab fa-facebook-f"></i>
+</a>
+</li>
+<li>
+<a href="mailto:?subject=End-to-End%20Encryption%20%28E2EE%29%20Explained&body=https://examplesite.org/post/end-2-end-encryption/" target=_blank rel=noopener class=share-btn-email>
+<i class="fas fa-envelope"></i>
+</a>
+</li>
+<li>
+<a href="https://www.linkedin.com/shareArticle?url=https://examplesite.org/post/end-2-end-encryption/&title=End-to-End%20Encryption%20%28E2EE%29%20Explained" target=_blank rel=noopener class=share-btn-linkedin>
+<i class="fab fa-linkedin-in"></i>
+</a>
+</li>
+<li>
+<a href="https://web.whatsapp.com/send?text=End-to-End%20Encryption%20%28E2EE%29%20Explained%20https://examplesite.org/post/end-2-end-encryption/" target=_blank rel=noopener class=share-btn-whatsapp>
+<i class="fab fa-whatsapp"></i>
+</a>
+</li>
+<li>
+<a href="https://service.weibo.com/share/share.php?url=https://examplesite.org/post/end-2-end-encryption/&title=End-to-End%20Encryption%20%28E2EE%29%20Explained" target=_blank rel=noopener class=share-btn-weibo>
+<i class="fab fa-weibo"></i>
+</a>
+</li>
+</ul>
 </div>
-
-  <div class="article-container">
-
-    <div class="article-style" itemprop="articleBody">
-      <p>In mid-February 2020, WhatsApp announced on its blog that the messaging app is now being actively used by more than 2 billion people worldwide. Multiply that by the number of messages being sent by each user – that&rsquo;s a lot of texts, photos, videos, voice messages, documents, status updates, and calls being sent through the public web each day!</p>
-<p>Imagine your data getting into the wrong hands for everyone to see with no privacy or security. What kind of harm could that cause? Fortunately, there is <a href="https://ssd.eff.org/en/module/deep-dive-end-end-encryption-how-do-public-key-encryption-systems-work">end-to-end encryption (E2EE)</a> — “a public key encryption system that ensures the contents of your messages, text, and even files from being understood by anyone except their intended recipients”</p>
-<p>Until recently, end-to-end encryption provided necessary security to prevent your information from being read in transit — that is, not hackers, not the government, and not even the company that facilitates your communication could read your messages. Disconcertingly, this is under threat under the <a href="https://www.wired.com/story/earn-it-act-sneak-attack-on-encryption/">EARN IT legislation bill</a> which aims to uproot encryption systems.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class=article-container>
+<div class=article-style itemprop=articleBody>
+<p>In mid-February 2020, WhatsApp announced on its blog that the messaging app is now being actively used by more than 2 billion people worldwide. Multiply that by the number of messages being sent by each user – that&rsquo;s a lot of texts, photos, videos, voice messages, documents, status updates, and calls being sent through the public web each day!</p>
+<p>Imagine your data getting into the wrong hands for everyone to see with no privacy or security. What kind of harm could that cause? Fortunately, there is <a href=https://ssd.eff.org/en/module/deep-dive-end-end-encryption-how-do-public-key-encryption-systems-work>end-to-end encryption (E2EE)</a> — “a public key encryption system that ensures the contents of your messages, text, and even files from being understood by anyone except their intended recipients”</p>
+<p>Until recently, end-to-end encryption provided necessary security to prevent your information from being read in transit — that is, not hackers, not the government, and not even the company that facilitates your communication could read your messages. Disconcertingly, this is under threat under the <a href=https://www.wired.com/story/earn-it-act-sneak-attack-on-encryption/>EARN IT legislation bill</a> which aims to uproot encryption systems.</p>
 <p>In this article, I will dive into how E2EE works and why it is important that we keep it. Before we begin going over end-to-end encryption, let’s take some time going over the basics of encryption.</p>
-<h3 id="passing-a-secret-message">Passing a secret message</h3>
+<h3 id=passing-a-secret-message>Passing a secret message</h3>
 <p>Let’s say you are in a classroom and want to send a secret message to your friend Bob, but you need to pass it through your friends beforehand. In this example, you and the intermediaries are called network nodes which are either a redistribution point or a communication endpoint.</p>
-<p><img src="./image_1_end.png" alt="secret message">
-<em>Image source: <a href="https://ssd.eff.org/en/module/deep-dive-end-end-encryption-how-do-public-key-encryption-systems-work">ssd.eff.org</a></em></p>
-<p>As you might have guessed, you are very concerned that your friends may take a peek at your secret message. So, you encrypt the message using the classic <a href="https://en.wikipedia.org/wiki/Caesar_cipher">Caesar/shift cipher</a> — “a cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet.” For this example, you and Bob have chosen 3 to be your key.</p>
-<p><img src="./image_2_end.png" alt="caesar shift cipher">
-<em>Image source: <a href="https://ssd.eff.org/en/module/deep-dive-end-end-encryption-how-do-public-key-encryption-systems-work">ssd.eff.org</a></em></p>
+<p><img src=./image_1_end.png alt="secret message">
+<em>Image source: <a href=https://ssd.eff.org/en/module/deep-dive-end-end-encryption-how-do-public-key-encryption-systems-work>ssd.eff.org</a></em></p>
+<p>As you might have guessed, you are very concerned that your friends may take a peek at your secret message. So, you encrypt the message using the classic <a href=https://en.wikipedia.org/wiki/Caesar_cipher>Caesar/shift cipher</a> — “a cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet.” For this example, you and Bob have chosen 3 to be your key.</p>
+<p><img src=./image_2_end.png alt="caesar shift cipher">
+<em>Image source: <a href=https://ssd.eff.org/en/module/deep-dive-end-end-encryption-how-do-public-key-encryption-systems-work>ssd.eff.org</a></em></p>
 <p>When there is one key to encrypt and decrypt data, it is called symmetric cryptographic encryption; it is the oldest form of encryption, dating back thousands of years.</p>
-<h3 id="the-one-key-system">The One Key System</h3>
-<p><img src="./image_3_end.png" alt="">
-<em>Image source: <a href="https://medium.com/hackernoon/symmetric-and-asymmetric-encryption-5122f9ec65b1">Hackernoon</a></em></p>
+<h3 id=the-one-key-system>The One Key System</h3>
+<p><img src=./image_3_end.png alt>
+<em>Image source: <a href=https://medium.com/hackernoon/symmetric-and-asymmetric-encryption-5122f9ec65b1>Hackernoon</a></em></p>
 <p>Nowadays, two types of Symmetric-key encryption algorithms exist – <em>block ciphers</em> or <em>stream ciphers</em>. The fundamental difference between them is their effective data-size operations. Stream ciphers usually operate on individual bytes of data; whereas block ciphers operate of fixed-lengths (i.e. blocks of data).</p>
-<p>Examples of modern Symmetric key encryption algorithms <a href="https://www.cheapsslshop.com/blog/symmetric-vs-asymmetric-encryption-whats-the-difference/">mentioned by cheapsslshop</a> include block ciphers such as Blowfish, AES, DES, Camellia, and Serpent, or stream ciphers such as FISH, RC4, QUAD, Py, and SNOW.</p>
+<p>Examples of modern Symmetric key encryption algorithms <a href=https://www.cheapsslshop.com/blog/symmetric-vs-asymmetric-encryption-whats-the-difference/>mentioned by cheapsslshop</a> include block ciphers such as Blowfish, AES, DES, Camellia, and Serpent, or stream ciphers such as FISH, RC4, QUAD, Py, and SNOW.</p>
 <p>There is a significant drawback to using symmetric-key encryption; both you and Bob need to decide on a key beforehand to communicate. This presents a challenge. How can you and Bob communicate securely and privately without letting your friends or anyone else for that matter know your key, especially when direct communication isn’t possible?</p>
-<h3 id="the-two-key-system">The Two Key System</h3>
-<p><img src="./image_4_end.png" alt="">
-<em>Image source: <a href="https://medium.com/hackernoon/symmetric-and-asymmetric-encryption-5122f9ec65b1">Hackernoon</a></em></p>
+<h3 id=the-two-key-system>The Two Key System</h3>
+<p><img src=./image_4_end.png alt>
+<em>Image source: <a href=https://medium.com/hackernoon/symmetric-and-asymmetric-encryption-5122f9ec65b1>Hackernoon</a></em></p>
 <p>Public-key cryptography (also known as asymmetric cryptography) resolves the inherent problem of symmetric encryption. Cryptographic algorithms based on mathematical formulas create one-way functions that generate two keys — a public key for encryption and a private key for decryption. The public keys are distributed freely however only the intended recipient holds the private key.</p>
 <p>In practice, almost all forms of network communication and data storage use public-key cryptography to a certain extent to guarantee authenticity and non-repudiability. Although asymmetric encryption is a relatively new area (when compared to symmetric encryption), it has created a platitude of internet standards including Transport Layer Security (TLS), S/MIME, PGP, and GPG.</p>
-<p>Some of the modern Asymmetric key encryption algorithms <a href="https://www.cheapsslshop.com/blog/symmetric-vs-asymmetric-encryption-whats-the-difference/">mentioned by cheapsslshop</a> include RSA, WELGamal, PGP, Elliptic curve techniques, SSH, and many others.</p>
+<p>Some of the modern Asymmetric key encryption algorithms <a href=https://www.cheapsslshop.com/blog/symmetric-vs-asymmetric-encryption-whats-the-difference/>mentioned by cheapsslshop</a> include RSA, WELGamal, PGP, Elliptic curve techniques, SSH, and many others.</p>
 <p>Now, you and Bob don’t know much about public-key cryptography; however you and Bob are determined to share a secret key through your friends during art class. You and Bob devise a plan to use paint.</p>
-<h3 id="general-overview-of-diffie-hellman-key-exchange-otr-with-paint">General overview of Diffie-Hellman key exchange (OTR) with paint</h3>
-<p><img src="./image_5_end.png" alt="diffie-hellman key exchange with paint">
-<!-- raw HTML omitted --><em>Image source:
-<a href="https://www.uni-due.de/imperia/md/images/dc/crypto_chapter_5_public_key.pdf">Introduction to public key cryptography</a></em></p>
+<h3 id=general-overview-of-diffie-hellman-key-exchange-otr-with-paint>General overview of Diffie-Hellman key exchange (OTR) with paint</h3>
+<p><img src=./image_5_end.png alt="diffie-hellman key exchange with paint">
+<em>Image source:
+<a href=https://www.uni-due.de/imperia/md/images/dc/crypto_chapter_5_public_key.pdf>Introduction to public key cryptography</a></em></p>
 <p>Diffie-Hellman key exchange allows two parties to create a shared secret that can be used for secret communication over an insecure network. The illustration above uses colors as an analogy to explain the concept of key exchange.</p>
 <p>The procedure begins by having both parties agree on some random starting color that does not need to be secret. In the illustration, both Alice and Bob have chosen yellow. Afterward, Bob and Alice choose individually a secret color that is not shared. In this example, it is red and teal.</p>
 <p>Now, for the most important part — Alice and Bob have to mix their own secret color together with their mutually shared color. This results in orange-tan (Alice) and light-blue (Bob) pigments that are shared through a public network.</p>
 <p>Lastly, the two-color mixtures are then mixed with their own secret color. The final resulting color should be the exact same for both parties (yellow-brownish).</p>
-<p>The beauty behind this secret exchange is that it prevents third parties from listening in and acquiring the common secret color even if they knew the common color (yellow) and the first mixed colors (orange-tan and light-blue). In reality, numbers are used in place of colors; however the  <a href="https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange">Diffie-Hellman method</a> is determined to be computationally expensive to “crack”. “It is impossible to compute in a practical amount of time even for modern supercomputers.”</p>
+<p>The beauty behind this secret exchange is that it prevents third parties from listening in and acquiring the common secret color even if they knew the common color (yellow) and the first mixed colors (orange-tan and light-blue). In reality, numbers are used in place of colors; however the <a href=https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange>Diffie-Hellman method</a> is determined to be computationally expensive to “crack”. “It is impossible to compute in a practical amount of time even for modern supercomputers.”</p>
 <p>The common key can now be used to create key-pairs for PGP (Pretty Good Privacy) encrypted messages.</p>
 <p>Diffie–Hellman has become the preferred key exchange algorithm for TLS (i.e. HTTPS) due its Forward Secrecy attributes, meaning that obtaining eventual access to the communicating systems does not enable an interested party to decrypt a previously recorded conversation. The previously popular key-exchange algorithm (RSA) does not support Forward Secrecy, and obtaining the RSA private keys from the communicating systems does allow previously recorded conversations to be decrypted.</p>
-<h3 id="in-review">In Review</h3>
+<h3 id=in-review>In Review</h3>
 <p>We went over symmetric encryption that used one key encryption technique to both encrypt data and decrypt data. The major flaw in symmetric encryption was its inability to establish unique keys over an insecure network.</p>
 <p>We also reviewed asymmetric encryption which solved the problem by using a public key for encryption and a private key for decryption. I explained how Diffie-Hellman is a possible algorithm to establish a shared secret between two parties, which in turn can be used for both symmetric or asymmetric encryption.</p>
 <p>In the end, E2EE is a vital system of communication that provides the necessary security for our devices over the expansive internet. It helps us make sure that our private information stays private.</p>
 <p>WAIT … I forgot the most important part. How can we build it? Here you go!</p>
-<h3 id="now-lets-build-our-keys-with-pgp">Now let’s build our keys with PGP</h3>
-<p>While modern version of Diffie-Hellman key exchange is not used in the (PGP) <a href="https://en.wikipedia.org/wiki/Pretty_Good_Privacy">Pretty Good Privacy</a>, it still creates complex key-pairs using another algorithm call RSA. In this short guide, I will show you how to generate PGP key with GNU/Linux.</p>
+<h3 id=now-lets-build-our-keys-with-pgp>Now let’s build our keys with PGP</h3>
+<p>While modern version of Diffie-Hellman key exchange is not used in the (PGP) <a href=https://en.wikipedia.org/wiki/Pretty_Good_Privacy>Pretty Good Privacy</a>, it still creates complex key-pairs using another algorithm call RSA. In this short guide, I will show you how to generate PGP key with GNU/Linux.</p>
 <p>PGP is a popular encryption standard to establish end-to-end encryption. The GNU Privacy Guard is a free software that is part of the OpenPGP standard. In short, public keys can be generated and exchanged using this tool.</p>
-<h4 id="step-1">Step 1</h4>
+<h4 id=step-1>Step 1</h4>
 <p>First update your packages. Then install and configuring GnuPG on your Ubuntu 18.04 machine.</p>
-<pre tabindex="0"><code>$ sudo apt update &amp;&amp; sudo apt upgrade
+<pre tabindex=0><code>$ sudo apt update &amp;&amp; sudo apt upgrade
 $ sudo apt install gnupg
 </code></pre><p>Once you are done with installing the GnuPG, you are ready to generate your key-pairs.</p>
-<h4 id="step-2">Step 2</h4>
+<h4 id=step-2>Step 2</h4>
 <p>Let’s dive into it. The very first thing you want to do is execute the command below that will walk you through the key generation process.</p>
-<pre tabindex="0"><code>$ gpg --full-gen-key
-</code></pre><pre tabindex="0"><code>Please select what kind of key you want:
+<pre tabindex=0><code>$ gpg --full-gen-key
+</code></pre><pre tabindex=0><code>Please select what kind of key you want:
  (1) RSA and RSA (default)
  (2) DSA and Elgamal
  (3) DSA (sign only)
  (4) RSA (sign only)
 Your selection?
 </code></pre><p>You want to choose the default option(1) that uses RSA. RSA is an algorithm used to encrypt and decrypt messages using a public and private key not much different from the Diffie-Hellman’s key exchange.</p>
-<pre tabindex="0"><code>RSA keys may be between 1024 and 4096 bits long.
+<pre tabindex=0><code>RSA keys may be between 1024 and 4096 bits long.
 What key size do you want? (3072)
 </code></pre><p>You will be prompted for your key length. In this case, we would like to choose 4096 bits because most people use it nowadays.</p>
 <p>Afterward, you will specify how long the key should be valid. This allows keys to be not usable after a certain amount of time. If you want it to be active indefinitely type in 0.</p>
-<pre tabindex="0"><code>Please specify how long the key should be valid.         
+<pre tabindex=0><code>Please specify how long the key should be valid.         
  0 = key does not expire      
  &lt;n&gt;  = key expires in n days      
  &lt;n&gt;w = key expires in n weeks       
 &lt;n&gt;m = key expires in n months       
 &lt;n&gt;y = key expires in n years Key is valid for? (0)
-</code></pre><h4 id="step-3">Step 3</h4>
+</code></pre><h4 id=step-3>Step 3</h4>
 <p>In this step, you will be prompted to add your user ID which includes your name, email address, comment, and finally your passphrase.</p>
-<pre tabindex="0"><code>GnuPG needs to construct a user ID to identify your key.
+<pre tabindex=0><code>GnuPG needs to construct a user ID to identify your key.
 Real name: **** *****
 Email address: **********@gmail.com
 Comment: New key
 You selected this USER-ID:
     &quot;**** **** (New key) &lt;***********@gmail.com&gt;&quot;
 </code></pre><p>The last step is that you will need to enter a passphrase. The passphrase will allow you to unlock the secret key when every you need to make any changes to your key or decrypt messages!</p>
-<p><img src="./image_6_end.png" alt="passphrase entry"></p>
+<p><img src=./image_6_end.png alt="passphrase entry"></p>
 <p>Congratulation! You have created your key!</p>
-<pre tabindex="0"><code>gpg: key 8FD4B01CB5FE9756 marked as ultimately trusted
+<pre tabindex=0><code>gpg: key 8FD4B01CB5FE9756 marked as ultimately trusted
 gpg: directory '/root/.gnupg/openpgp-revocs.d' created
 gpg: revocation certificate stored as '/root/.gnupg/openpgp-revocs.d/4F9F86C428484360A346BE1E8FD4B01CB5FE9756.rev'
 public and secret key created and signed.
@@ -605,14 +230,14 @@ pub   rsa4096 2020-04-17 [SC]
       4F9F86C428484360A346BE1E8FD4B01CB5FE9756
 uid                      **** ****** (New key) &lt;*********@gmail.com&gt;
 sub   rsa4096 2020-04-17 [E]
-</code></pre><h4 id="whats-next">What&rsquo;s next?</h4>
+</code></pre><h4 id=whats-next>What&rsquo;s next?</h4>
 <p>In this phase, we can use the GPA (The Gnu Privacy Assistant) tool to view and use our key</p>
-<pre tabindex="0"><code>$ sudo apt install gpa
+<pre tabindex=0><code>$ sudo apt install gpa
 $ gpa
-</code></pre><p><img src="./image_7_end.png" alt="GPA">
+</code></pre><p><img src=./image_7_end.png alt=GPA>
 You should see something similar to the picture above.</p>
 <p>Once you have the GNU privacy Assistant Key Manger open, you can select the recently created key, then click Export Keys. Save your key anywhere you would like in your directories. Double click the recently exported Key to view its contents.</p>
-<pre tabindex="0"><code>:-----BEGIN PGP PUBLIC KEY BLOCK-----    
+<pre tabindex=0><code>:-----BEGIN PGP PUBLIC KEY BLOCK-----    
 
 
 iQI2BCABCgAgFiEET5+GxChIQ2CjRr4ej9SwHLX+l1YFAl6aIVACHQAACgkQj9Sw    
@@ -633,9 +258,9 @@ rhA4oMIXlqGGcZD7Y7vV/uT7AsCEQ8kzkYIoWlf4a9+Kj96MBkv6sik=
 First of all, we will need to see who is doing the talking? Send your public key over to your friend and ask them to do the same for you. Next, save their key somewhere and import it by pressing Import Keys. Now that you have exchanged public keys we can start encrypting messages.</p>
 <p>To import their public key all you need to do is press the <strong>Import Keys</strong> button on the GNU Privacy Assistant manager.</p>
 <p>It is time to write your secret message. Go and open the GNU clipboard by pressing the <strong>Clipboard icon</strong>. This window will pop up:</p>
-<p><img src="./image_8_end.png" alt="GNU clipboard"></p>
+<p><img src=./image_8_end.png alt="GNU clipboard"></p>
 <p>The white space allows you to write anything you would like to be kept secret. When you&rsquo;ve finished composing your message, you can go ahead and press <strong>Encrypt the buffer text</strong>, which looks like an envelope with a blue key in front of it. Make sure to choose the public key of whomever you are talking to. For additional safety, you can also sign the encrypted message with your key.</p>
-<pre tabindex="0"><code>-----BEGIN PGP MESSAGE----- Version: GnuPG v2
+<pre tabindex=0><code>-----BEGIN PGP MESSAGE----- Version: GnuPG v2
 xTcDVvfDj4aqvYTrTNMS1ce7dxkbdh9G81mPwI8AlbEjN2UGLWN/3wOVlajUukV1    
 /x5xVaS5gP8meaeCY5661OLKw5a3e3VxUBFfLR0R3qzMzenmJs8ctBqo1Wt8VdIh    
 gItU1AGwrgOK37x1fgikWUWXzPBs38z/KCrifBSh31gFhRZykXzjeGzbWHrPpN/G    
@@ -652,253 +277,88 @@ dVgkGt03WM7x+nvtkY61tduT3Pe3et6YZw2jUnCxQJlNL60wDci0ulxZzTHnUSdj
 </code></pre><p>It will look similar to the above. Now you can send it however you like, through email or text.
 Voila! You have made end-to-end encryption!</p>
 <p>Note, once you or your friend receives the encrypted message, all they have to do to decrypt the message is to paste it in the clipboard and decrypt it by pressing the <strong>Decrypt the buffer text</strong>.</p>
-<h3 id="conclusion">Conclusion</h3>
+<h3 id=conclusion>Conclusion</h3>
 <p>End-to-End Encryption is a valuable tool that allows internet users to send their information securely and privately over a public network. I recommend you do your own research about the email and messaging platforms you use and how they send your data. If they use end-to-end encryption, then count them as a good service provider because they value your privacy.</p>
-    </div>
-
-    
-
-<div class="article-tags">
-  
-  <a class="badge badge-light" href="/tags/academia/">academia</a>
-  
 </div>
-
-
-
-    
-      
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-  
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
-    
-
-    <div class="media-body">
-      <h5 class="card-title" itemprop="name"><a href="https://examplesite.org">Earl Potters</a></h5>
-      <h6 class="card-subtitle">Smart-Contract Developer</h6>
-      <p class="card-text" itemprop="description">My interests include robotics, simulation and artificial intelligence.</p>
-      <ul class="network-icon" aria-hidden="true">
-        
-          
-          
-          
-            
-          
-          
-          
-          
-          
-            
-          
-          <li>
-            <a itemprop="sameAs" href="/#contact" >
-              <i class="fas fa-envelope"></i>
-            </a>
-          </li>
-        
-          
-          
-          
-            
-          
-          
-          
-          
-          
-            
-          
-          <li>
-            <a itemprop="sameAs" href="https://github.com/Slyracoon23" target="_blank" rel="noopener">
-              <i class="fab fa-github"></i>
-            </a>
-          </li>
-        
-          
-          
-          
-            
-          
-          
-          
-          
-          
-            
-          
-          <li>
-            <a itemprop="sameAs" href="https://www.linkedin.com/in/earl-potters-b2b306187/" target="_blank" rel="noopener">
-              <i class="fab fa-linkedin"></i>
-            </a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-
-
-      
-      
-    
-
-    
-
-    
-
-
-  </div>
+<div class=article-tags>
+<a class="badge badge-light" href=/tags/academia/>academia</a>
+</div>
+<div class="media author-card" itemscope itemtype=http://schema.org/Person>
+<div class=media-body>
+<h5 class=card-title itemprop=name><a href=https://examplesite.org>Earl Potters</a></h5>
+<h6 class=card-subtitle>Smart-Contract Developer</h6>
+<p class=card-text itemprop=description>My interests include robotics, simulation and artificial intelligence.</p>
+<ul class=network-icon aria-hidden=true>
+<li>
+<a itemprop=sameAs href=/#contact>
+<i class="fas fa-envelope"></i>
+</a>
+</li>
+<li>
+<a itemprop=sameAs href=https://github.com/Slyracoon23 target=_blank rel=noopener>
+<i class="fab fa-github"></i>
+</a>
+</li>
+<li>
+<a itemprop=sameAs href=https://www.linkedin.com/in/earl-potters-b2b306187/ target=_blank rel=noopener>
+<i class="fab fa-linkedin"></i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
 </article>
-
-      
-
-    
-    
-
-    
-    
-    
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
-
-      
-
-      
-        
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
-        
-      
-
-      
-      
-    
-
-    
-    
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
-    
-
-    
-    
-    
-
-    
-    
-    <script>hljs.initHighlightingOnLoad();</script>
-    
-
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <script src="/js/academia.min.e40e230d9b3dfeac86994156b6388764.js"></script>
-
-    
-
-
-
-
-
-
-  
-  <div class="container">
-    <footer class="site-footer">
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        
-        <p class="powered-by">
-          <a href="/privacy/">Privacy Policy</a>
-        </p>
-        
-        <p>
-          
-          Powered by
-          <a href="https://themefisher.com" target="_blank" rel="noopener">themefisher</a> for
-          <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
-        </p>
-      </div>
-      <div class="col-md-6">
-        <ul class="list-inline network-icon text-right">
-          
-          
-        </ul>
-      </div>
-    </div>
-  </div>
-</footer>
-  </div>
-  
-
-  
-<div id="modal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Cite</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <pre><code class="tex hljs"></code></pre>
-      </div>
-      <div class="modal-footer">
-        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
-          <i class="fas fa-copy"></i> Copy
-        </a>
-        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
-          <i class="fas fa-download"></i> Download
-        </a>
-        <div id="modal-error"></div>
-      </div>
-    </div>
-  </div>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin=anonymous></script>
+<script>hljs.initHighlightingOnLoad()</script>
+<script src=/js/academia.min.e40e230d9b3dfeac86994156b6388764.js></script>
+<div class=container>
+<footer class=site-footer>
+<div class=container>
+<div class=row>
+<div class=col-md-6>
+<p>
+Powered by
+<a href=https://themefisher.com target=_blank rel=noopener>themefisher</a> for
+<a href=https://gohugo.io target=_blank rel=noopener>Hugo</a>.
+</p>
 </div>
-
+<div class=col-md-6>
+<ul class="list-inline network-icon text-right">
+</ul>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div id=modal class="modal fade" role=dialog>
+<div class=modal-dialog>
+<div class=modal-content>
+<div class=modal-header>
+<h5 class=modal-title>Cite</h5>
+<button type=button class=close data-dismiss=modal aria-label=Close>
+<span aria-hidden=true>&#215;</span>
+</button>
+</div>
+<div class=modal-body>
+<pre><code class="tex hljs"></code></pre>
+</div>
+<div class=modal-footer>
+<a class="btn btn-outline-primary my-1 js-copy-cite" href=# target=_blank>
+<i class="fas fa-copy"></i> Copy
+</a>
+<a class="btn btn-outline-primary my-1 js-download-cite" href=# target=_blank>
+<i class="fas fa-download"></i> Download
+</a>
+<div id=modal-error></div>
+</div>
+</div>
+</div>
+</div>
 </body>
 </html>
