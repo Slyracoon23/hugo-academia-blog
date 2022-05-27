@@ -81,7 +81,7 @@ user_groups:
 ---
 
 
-Earl Potters is a computer sciencist and a skilled smart-contract developer. He has experience in robotics and artificial intelligence, which he gained while working on his own robotics club at university of Colorado Boulder. Earl has expand his skillset to blockchain both learning smart-contracts and web3 tooling. He is currently working for CityDAO, a DAO focused on developing the cities of the future. 
+Earl Potters is a computer sciencist and a skilled smart-contract developer. He has experience in robotics and artificial intelligence, which he gained while working on his own robotics club at university of Colorado Boulder. Earl has expanded his skillset to blockchain, learning smart-contracts and web3 tooling. He is currently working for CityDAO, a DAO focused on developing the cities of the future. 
 
 
 
