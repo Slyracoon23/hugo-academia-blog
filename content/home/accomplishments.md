@@ -19,14 +19,14 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
-  organization = "Udacity"
-  organization_url = "https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd0044"
-  title = "Full Stack Web Developer"
-  url = ""
-  certificate_url = "https://drive.google.com/file/d/1O3ZDnPZNw3dGDdgx73OenLGJLl62spKB/view?usp=sharing"
-  date_start = "2020-05-01"
-  date_end = "2020-08-01"
-  description = ""
+  organization = "EthDenver Virtual Hackathon"
+  organization_url = "https://dorahacks.io/buidl/2462"
+  title = "DoraHacks EthDenver Virtual Hackathon"
+  url = "https://dorahacks.io/buidl/2462"
+  certificate_url = "https://www.ethdenver.com/virtual-winners/#bounties"
+  date_start = "2022-02-28"
+  date_end = "2022-03-28"
+  description = " Balancer v2 Bounty winner for EthDenver Virtual Hackathon"
 
 [[item]]
   organization = "RoboBoat"

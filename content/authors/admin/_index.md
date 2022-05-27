@@ -7,7 +7,7 @@ authors:
 - admin
 # resume download button
 btn:
-- url : "https://drive.google.com/file/d/1RuRX8PwyZGqkinFOMzqGWD9VLJk_D1BW/view?usp=sharing"
+- url : "https://drive.google.com/file/d/1AkmRtx4dbQwrVD4pAi9LZJGLBPEpicGE/view?usp=sharing"
   label : "Download Resume"
 
 # Is this the primary user of the site?
